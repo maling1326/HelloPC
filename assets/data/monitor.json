@@ -1,0 +1,754 @@
+{
+    "monitor_card": [
+        {
+            "id": "mon-01",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=LG+UltraGear+27GP850",
+            "title": "LG UltraGear 27GP850-B",
+            "brief_explanation": "A very popular QHD gaming monitor, offering vibrant Nano IPS colors and a high refresh rate for smooth visuals.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "Nano IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "G-Sync Compatible, FreeSync Premium"
+            },
+            "price": "Rp5.800.000"
+        },
+        {
+            "id": "mon-02",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Dell+Alienware+AW3423DW",
+            "title": "Dell Alienware AW3423DW",
+            "brief_explanation": "The ultimate ultrawide gaming experience with a QD-OLED panel, producing perfect blacks and infinite contrast.",
+            "specifications": {
+                "size": "34 inch Ultrawide",
+                "panel_type": "QD-OLED",
+                "resolution": "UWQHD (3440x1440)",
+                "refresh_rate": "175Hz",
+                "response_time": "0.1ms (GtG)",
+                "adaptive_sync": "G-Sync Ultimate"
+            },
+            "price": "Rp21.500.000"
+        },
+        {
+            "id": "mon-03",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Samsung+Odyssey+G7",
+            "title": "Samsung Odyssey G7",
+            "brief_explanation": "A highly immersive curved (1000R) gaming monitor with a fast 240Hz refresh rate for incredibly smooth motion.",
+            "specifications": {
+                "size": "27 inch Curved",
+                "panel_type": "VA",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "240Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "G-Sync Compatible, FreeSync Premium Pro"
+            },
+            "price": "Rp8.200.000"
+        },
+        {
+            "id": "mon-04",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=ASUS+TUF+VG249Q",
+            "title": "ASUS TUF Gaming VG249Q",
+            "brief_explanation": "A fan-favorite for 1080p e-sports gaming, offering a 144Hz IPS panel at a very competitive price point.",
+            "specifications": {
+                "size": "23.8 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp3.100.000"
+        },
+        {
+            "id": "mon-05",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Gigabyte+M28U",
+            "title": "Gigabyte M28U",
+            "brief_explanation": "A versatile 4K 144Hz monitor, equipped with a KVM switch for easy use between a PC and a laptop.",
+            "specifications": {
+                "size": "28 inch",
+                "panel_type": "IPS",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "FreeSync Premium Pro"
+            },
+            "price": "Rp11.500.000"
+        },
+        {
+            "id": "mon-06",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=ViewSonic+VX2758",
+            "title": "ViewSonic VX2758-2KP-MHD",
+            "brief_explanation": "A best-value 1440p 144Hz gaming monitor, offering high-end specifications at a more affordable price.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync"
+            },
+            "price": "Rp4.200.000"
+        },
+        {
+            "id": "mon-07",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=BenQ+ZOWIE+XL2546K",
+            "title": "BenQ ZOWIE XL2546K",
+            "brief_explanation": "The e-sports tournament standard, designed purely for competitive performance with a 240Hz refresh rate and DyAc+ technology.",
+            "specifications": {
+                "size": "24.5 inch",
+                "panel_type": "TN",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "240Hz",
+                "response_time": "0.5ms (GtG)",
+                "adaptive_sync": "Not a primary feature"
+            },
+            "price": "Rp7.500.000"
+        },
+        {
+            "id": "mon-08",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=AOC+24G2",
+            "title": "AOC 24G2",
+            "brief_explanation": "A highly popular 1080p 144Hz gaming monitor, offering a great-looking IPS panel and a borderless design.",
+            "specifications": {
+                "size": "24 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp2.900.000"
+        },
+        {
+            "id": "mon-09",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Dell+Ultrasharp+U2723QE",
+            "title": "Dell Ultrasharp U2723QE",
+            "brief_explanation": "A 4K monitor for creative professionals, using IPS Black technology for deeper contrast and exceptional color accuracy.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS Black",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "60Hz",
+                "response_time": "5ms (GtG)",
+                "adaptive_sync": "Not Applicable"
+            },
+            "price": "Rp9.800.000"
+        },
+        {
+            "id": "mon-10",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=MSI+Optix+MAG274QRF-QD",
+            "title": "MSI Optix MAG274QRF-QD",
+            "brief_explanation": "Delivers stunning visuals thanks to Quantum Dot technology, producing a very wide color gamut for gaming and entertainment.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "Quantum Dot IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "G-Sync Compatible"
+            },
+            "price": "Rp6.500.000"
+        },
+        {
+            "id": "mon-11",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Xiaomi+Mi+Curved+34",
+            "title": "Xiaomi Mi Curved Gaming Monitor",
+            "brief_explanation": "A 144Hz ultrawide gaming monitor with an attractive price point, providing an immersive experience for games and productivity.",
+            "specifications": {
+                "size": "34 inch Ultrawide",
+                "panel_type": "VA",
+                "resolution": "UWQHD (3440x1440)",
+                "refresh_rate": "144Hz",
+                "response_time": "4ms (GtG)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp5.500.000"
+        },
+        {
+            "id": "mon-12",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=LG+22MP410",
+            "title": "LG 22MP410-B",
+            "brief_explanation": "A reliable entry-level Full HD monitor for everyday use, offering good image quality with its VA panel.",
+            "specifications": {
+                "size": "21.5 inch",
+                "panel_type": "VA",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "75Hz",
+                "response_time": "5ms (GtG)",
+                "adaptive_sync": "FreeSync"
+            },
+            "price": "Rp1.450.000"
+        },
+        {
+            "id": "mon-13",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Samsung+Odyssey+Neo+G9",
+            "title": "Samsung Odyssey Neo G9",
+            "brief_explanation": "The most immersive super ultrawide (32:9) gaming experience with Mini LED technology for spectacular HDR image quality.",
+            "specifications": {
+                "size": "49 inch Super Ultrawide",
+                "panel_type": "Mini LED VA",
+                "resolution": "DUAL QHD (5120x1440)",
+                "refresh_rate": "240Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "G-Sync Compatible, FreeSync Premium Pro"
+            },
+            "price": "Rp28.000.000"
+        },
+        {
+            "id": "mon-14",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=ASUS+ROG+Swift+PG279QM",
+            "title": "ASUS ROG Swift PG279QM",
+            "brief_explanation": "A 1440p 240Hz e-sports monitor with a built-in NVIDIA Reflex Latency Analyzer to measure and reduce system latency.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "Fast IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "240Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "G-Sync"
+            },
+            "price": "Rp12.300.000"
+        },
+        {
+            "id": "mon-15",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Gigabyte+G24F",
+            "title": "Gigabyte G24F",
+            "brief_explanation": "A 1080p gaming monitor with a high refresh rate (165Hz) and accurate IPS colors, making it a solid choice in its class.",
+            "specifications": {
+                "size": "23.8 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp2.600.000"
+        },
+        {
+            "id": "mon-16",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Acer+Nitro+XV272U",
+            "title": "Acer Nitro XV272U P",
+            "brief_explanation": "A well-rounded QHD gaming monitor that offers a great balance of color accuracy, speed, and features for its price.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (VRB)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp4.800.000"
+        },
+        {
+            "id": "mon-17",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=HP+X24ih",
+            "title": "HP X24ih",
+            "brief_explanation": "An affordable 144Hz IPS gaming monitor with an ergonomic stand, offering height and tilt adjustments for comfort.",
+            "specifications": {
+                "size": "23.8 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp2.850.000"
+        },
+        {
+            "id": "mon-18",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Lenovo+G27q-20",
+            "title": "Lenovo G27q-20",
+            "brief_explanation": "A QHD gaming monitor that provides a smooth 165Hz refresh rate and rich colors, great for immersive single-player games.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp4.500.000"
+        },
+        {
+            "id": "mon-19",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Koorui+24E3",
+            "title": "Koorui 24E3",
+            "brief_explanation": "A budget-king for competitive gaming, offering a fast 165Hz refresh rate at an extremely accessible price.",
+            "specifications": {
+                "size": "24 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync, G-Sync Compatible"
+            },
+            "price": "Rp1.900.000"
+        },
+        {
+            "id": "mon-20",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=LG+27UL500-W",
+            "title": "LG 27UL500-W",
+            "brief_explanation": "An entry-level 4K monitor that brings ultra-high definition clarity for productivity and media consumption without breaking the bank.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "60Hz",
+                "response_time": "5ms (GtG)",
+                "adaptive_sync": "FreeSync"
+            },
+            "price": "Rp4.300.000"
+        },
+        {
+            "id": "mon-21",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=ASUS+ProArt+PA279CV",
+            "title": "ASUS ProArt PA279CV",
+            "brief_explanation": "Designed for professionals, this 4K monitor is factory-calibrated for outstanding color accuracy (Delta E < 2).",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "60Hz",
+                "response_time": "5ms (GtG)",
+                "adaptive_sync": "Adaptive-Sync"
+            },
+            "price": "Rp8.100.000"
+        },
+        {
+            "id": "mon-22",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Samsung+M7+Smart+Monitor",
+            "title": "Samsung M7 Smart Monitor",
+            "brief_explanation": "More than just a monitor, this device doubles as a Smart TV with the Tizen OS, perfect for both work and entertainment.",
+            "specifications": {
+                "size": "32 inch",
+                "panel_type": "VA",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "60Hz",
+                "response_time": "4ms (GtG)",
+                "adaptive_sync": "Not Applicable"
+            },
+            "price": "Rp5.200.000"
+        },
+        {
+            "id": "mon-23",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Philips+242M8",
+            "title": "Philips 242M8",
+            "brief_explanation": "A solid 1080p 144Hz IPS monitor that covers all the gaming essentials with good color performance.",
+            "specifications": {
+                "size": "23.8 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp2.750.000"
+        },
+        {
+            "id": "mon-24",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=AOC+CQ27G2",
+            "title": "AOC CQ27G2",
+            "brief_explanation": "An immersive curved QHD gaming monitor with a VA panel, offering deep blacks and a high refresh rate.",
+            "specifications": {
+                "size": "27 inch Curved",
+                "panel_type": "VA",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp4.100.000"
+        },
+        {
+            "id": "mon-25",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=LG+UltraWide+29WP60G",
+            "title": "LG UltraWide 29WP60G-B",
+            "brief_explanation": "An affordable ultrawide monitor that enhances productivity and provides a wider field of view in games.",
+            "specifications": {
+                "size": "29 inch Ultrawide",
+                "panel_type": "IPS",
+                "resolution": "WFHD (2560x1080)",
+                "refresh_rate": "75Hz",
+                "response_time": "5ms (GtG)",
+                "adaptive_sync": "FreeSync"
+            },
+            "price": "Rp3.200.000"
+        },
+        {
+            "id": "mon-26",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=ASUS+ROG+Swift+360Hz",
+            "title": "ASUS ROG Swift PG259QN",
+            "brief_explanation": "One of the first 360Hz monitors, designed without compromise for e-sports players needing a competitive edge.",
+            "specifications": {
+                "size": "24.5 inch",
+                "panel_type": "Fast IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "360Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "G-Sync"
+            },
+            "price": "Rp10.500.000"
+        },
+        {
+            "id": "mon-27",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Dell+S2721DGF",
+            "title": "Dell S2721DGF",
+            "brief_explanation": "A highly-rated QHD gaming monitor known for its fast response time, great colors, and robust build quality.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "G-Sync Compatible, FreeSync Premium Pro"
+            },
+            "price": "Rp5.600.000"
+        },
+        {
+            "id": "mon-28",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=BenQ+MOBIUZ+EX2510S",
+            "title": "BenQ MOBIUZ EX2510S",
+            "brief_explanation": "A gaming monitor focused on immersion, featuring built-in speakers and HDRi technology to enhance visual quality.",
+            "specifications": {
+                "size": "24.5 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp3.900.000"
+        },
+        {
+            "id": "mon-29",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Gigabyte+M32U",
+            "title": "Gigabyte M32U",
+            "brief_explanation": "A large 32-inch 4K gaming monitor that's also great for productivity, featuring a high refresh rate and a KVM switch.",
+            "specifications": {
+                "size": "32 inch",
+                "panel_type": "IPS",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium Pro"
+            },
+            "price": "Rp12.800.000"
+        },
+        {
+            "id": "mon-30",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=LG+42+C2+OLED",
+            "title": "LG OLED42C2",
+            "brief_explanation": "A 42-inch OLED TV that's perfect as a PC monitor, offering unparalleled OLED picture quality for gaming and media.",
+            "specifications": {
+                "size": "42 inch",
+                "panel_type": "OLED",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "120Hz",
+                "response_time": "<1ms (GtG)",
+                "adaptive_sync": "G-Sync Compatible, FreeSync Premium"
+            },
+            "price": "Rp15.500.000"
+        },
+        {
+            "id": "mon-31",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=ViewSonic+Elite+XG2431",
+            "title": "ViewSonic Elite XG2431",
+            "brief_explanation": "A 240Hz monitor certified by Blur Busters for its superior motion clarity, making it excellent for fast-paced FPS games.",
+            "specifications": {
+                "size": "24 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "240Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp5.100.000"
+        },
+        {
+            "id": "mon-32",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=MSI+G2412",
+            "title": "MSI G2412",
+            "brief_explanation": "A budget-friendly IPS gaming monitor that pushes the refresh rate to 170Hz for an extra edge in smoothness.",
+            "specifications": {
+                "size": "23.8 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "170Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp2.400.000"
+        },
+        {
+            "id": "mon-33",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Samsung+Odyssey+G5",
+            "title": "Samsung Odyssey G5 C27G55T",
+            "brief_explanation": "Brings immersive curved QHD gaming to a more accessible price point, featuring a sharp 1000R curvature.",
+            "specifications": {
+                "size": "27 inch Curved",
+                "panel_type": "VA",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp4.300.000"
+        },
+        {
+            "id": "mon-34",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=HP+Omen+27c",
+            "title": "HP Omen 27c",
+            "brief_explanation": "A fast 240Hz QHD curved monitor that provides an incredibly fluid and immersive experience for competitive gaming.",
+            "specifications": {
+                "size": "27 inch Curved",
+                "panel_type": "VA",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "240Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium Pro"
+            },
+            "price": "Rp7.800.000"
+        },
+        {
+            "id": "mon-35",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Acer+Predator+XB273U",
+            "title": "Acer Predator XB273U GX",
+            "brief_explanation": "A high-performance QHD monitor with a 240Hz refresh rate, designed for serious gamers who demand both speed and quality.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "240Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "G-Sync Compatible"
+            },
+            "price": "Rp9.900.000"
+        },
+        {
+            "id": "mon-36",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=LG+32GQ950-B",
+            "title": "LG UltraGear 32GQ950-B",
+            "brief_explanation": "A 32-inch 4K monitor that combines a high refresh rate with Nano IPS technology for a stunning large-screen gaming experience.",
+            "specifications": {
+                "size": "32 inch",
+                "panel_type": "Nano IPS",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "G-Sync Compatible, FreeSync Premium Pro"
+            },
+            "price": "Rp14.000.000"
+        },
+        {
+            "id": "mon-37",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Dell+G2422HS",
+            "title": "Dell G2422HS",
+            "brief_explanation": "A reliable 1080p gaming monitor from Dell, offering a fast 165Hz IPS panel and a clean design.",
+            "specifications": {
+                "size": "23.8 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp2.700.000"
+        },
+        {
+            "id": "mon-38",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=ASUS+ProArt+PA32UCG",
+            "title": "ASUS ProArt PA32UCG-K",
+            "brief_explanation": "An ultimate monitor for HDR content creation, featuring a Mini LED backlight with over 1000 dimming zones and peak brightness.",
+            "specifications": {
+                "size": "32 inch",
+                "panel_type": "Mini LED IPS",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "120Hz",
+                "response_time": "5ms (GtG)",
+                "adaptive_sync": "FreeSync Premium Pro"
+            },
+            "price": "Rp45.000.000"
+        },
+        {
+            "id": "mon-39",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Samsung+Odyssey+Ark",
+            "title": "Samsung Odyssey Ark",
+            "brief_explanation": "A massive 55-inch curved 4K monitor that can rotate into a vertical 'Cockpit Mode' for a unique, immersive experience.",
+            "specifications": {
+                "size": "55 inch Curved",
+                "panel_type": "Mini LED VA",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "FreeSync Premium Pro"
+            },
+            "price": "Rp35.000.000"
+        },
+        {
+            "id": "mon-40",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=BenQ+PD2700U",
+            "title": "BenQ PD2700U DesignVue",
+            "brief_explanation": "A 4K monitor for designers and editors, focusing on color accuracy and featuring specialized modes for CAD/CAM and Animation.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "60Hz",
+                "response_time": "5ms (GtG)",
+                "adaptive_sync": "Not Applicable"
+            },
+            "price": "Rp7.200.000"
+        },
+        {
+            "id": "mon-41",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=LG+24GN600-B",
+            "title": "LG UltraGear 24GN600-B",
+            "brief_explanation": "An affordable 144Hz IPS gaming monitor from LG, delivering fast performance and vibrant colors for 1080p gaming.",
+            "specifications": {
+                "size": "23.8 inch",
+                "panel_type": "IPS",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MBR)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp2.500.000"
+        },
+        {
+            "id": "mon-42",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=AOC+U2790VQ",
+            "title": "AOC U2790VQ",
+            "brief_explanation": "A budget-friendly 27-inch 4K monitor, offering a massive amount of screen real estate and detail for productivity tasks.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "60Hz",
+                "response_time": "5ms (GtG)",
+                "adaptive_sync": "Not Applicable"
+            },
+            "price": "Rp4.100.000"
+        },
+        {
+            "id": "mon-43",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=MSI+Creator+PS321QR",
+            "title": "MSI Creator PS321QR",
+            "brief_explanation": "A large 32-inch monitor for content creators, balancing a high refresh rate with excellent color accuracy and QHD resolution.",
+            "specifications": {
+                "size": "32 inch",
+                "panel_type": "IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "Not a primary feature"
+            },
+            "price": "Rp8.900.000"
+        },
+        {
+            "id": "mon-44",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Gigabyte+G34WQC",
+            "title": "Gigabyte G34WQC A",
+            "brief_explanation": "An immersive ultrawide curved monitor with a VA panel that offers great contrast and a smooth 144Hz refresh rate for gaming.",
+            "specifications": {
+                "size": "34 inch Ultrawide Curved",
+                "panel_type": "VA",
+                "resolution": "UWQHD (3440x1440)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp6.200.000"
+        },
+        {
+            "id": "mon-45",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=ViewSonic+VP2756-2K",
+            "title": "ViewSonic ColorPro VP2756-2K",
+            "brief_explanation": "A Pantone-validated monitor for photographers and designers, ensuring true-to-life color reproduction for creative work.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "60Hz",
+                "response_time": "5ms (GtG)",
+                "adaptive_sync": "Not Applicable"
+            },
+            "price": "Rp5.300.000"
+        },
+        {
+            "id": "mon-46",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=LG+DualUp+28MQ780",
+            "title": "LG DualUp 28MQ780-B",
+            "brief_explanation": "A unique monitor with a 16:18 aspect ratio, equivalent to two stacked 21.5-inch monitors, ideal for multitasking and productivity.",
+            "specifications": {
+                "size": "27.6 inch",
+                "panel_type": "Nano IPS",
+                "resolution": "SDQHD (2560x2880)",
+                "refresh_rate": "60Hz",
+                "response_time": "5ms (GtG)",
+                "adaptive_sync": "Not Applicable"
+            },
+            "price": "Rp9.500.000"
+        },
+        {
+            "id": "mon-47",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Cooler+Master+GM27-FQS",
+            "title": "Cooler Master GM27-FQS ARGB",
+            "brief_explanation": "A QHD gaming monitor with a fast IPS panel and ARGB lighting on the stand for an extra touch of style.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (GtG)",
+                "adaptive_sync": "FreeSync Premium"
+            },
+            "price": "Rp5.100.000"
+        },
+        {
+            "id": "mon-48",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Razer+Raptor+27",
+            "title": "Razer Raptor 27",
+            "brief_explanation": "A premium gaming monitor featuring a forged aluminum base, built-in cable management, and vibrant Razer Chroma RGB.",
+            "specifications": {
+                "size": "27 inch",
+                "panel_type": "IPS",
+                "resolution": "QHD (2560x1440)",
+                "refresh_rate": "165Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "G-Sync Compatible, FreeSync Premium"
+            },
+            "price": "Rp11.000.000"
+        },
+        {
+            "id": "mon-49",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Corsair+XENEON+32UHD144",
+            "title": "Corsair XENEON 32UHD144",
+            "brief_explanation": "A large 4K gaming monitor with a Quantum Dot IPS panel for exceptional color and a fast 144Hz refresh rate.",
+            "specifications": {
+                "size": "32 inch",
+                "panel_type": "Quantum Dot IPS",
+                "resolution": "4K UHD (3840x2160)",
+                "refresh_rate": "144Hz",
+                "response_time": "1ms (MPRT)",
+                "adaptive_sync": "FreeSync Premium, G-Sync Compatible"
+            },
+            "price": "Rp15.200.000"
+        },
+        {
+            "id": "mon-50",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=HKC+NB24C",
+            "title": "HKC NB24C",
+            "brief_explanation": "An extremely affordable curved monitor for basic office work or light entertainment, offering an immersive feel on a budget.",
+            "specifications": {
+                "size": "24 inch Curved",
+                "panel_type": "VA",
+                "resolution": "FHD (1920x1080)",
+                "refresh_rate": "75Hz",
+                "response_time": "4ms (GtG)",
+                "adaptive_sync": "Not Applicable"
+            },
+            "price": "Rp1.350.000"
+        }
+    ]
+}

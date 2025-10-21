@@ -1,0 +1,724 @@
+{
+    "internal_component_card": [
+        {
+            "id": "cpu-01",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Intel+Core+i9-13900K",
+            "title": "Intel Core i9-13900K",
+            "type": "CPU",
+            "brief_explanation": "A flagship processor for maximum performance in gaming and content creation, offering incredible speeds with a massive core count.",
+            "specifications": {
+                "brand": "Intel",
+                "cores_threads": "24 Cores / 32 Threads",
+                "clock_speed": "3.0GHz up to 5.8GHz",
+                "socket": "LGA 1700",
+                "overclockable": true,
+                "integrated_graphics": true
+            },
+            "price": "Rp9.800.000"
+        },
+        {
+            "id": "cpu-02",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=AMD+Ryzen+9+7950X",
+            "title": "AMD Ryzen 9 7950X",
+            "type": "CPU",
+            "brief_explanation": "AMD's productivity powerhouse, delivering unmatched multi-core performance for rendering and heavy computation.",
+            "specifications": {
+                "brand": "AMD",
+                "cores_threads": "16 Cores / 32 Threads",
+                "clock_speed": "4.5GHz up to 5.7GHz",
+                "socket": "AM5",
+                "overclockable": true,
+                "integrated_graphics": true
+            },
+            "price": "Rp9.500.000"
+        },
+        {
+            "id": "cpu-03",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Intel+Core+i5-13600K",
+            "title": "Intel Core i5-13600K",
+            "type": "CPU",
+            "brief_explanation": "The top choice for high-performance gaming, offering a perfect balance of price, speed, and core count.",
+            "specifications": {
+                "brand": "Intel",
+                "cores_threads": "14 Cores / 20 Threads",
+                "clock_speed": "3.5GHz up to 5.1GHz",
+                "socket": "LGA 1700",
+                "overclockable": true,
+                "integrated_graphics": true
+            },
+            "price": "Rp5.200.000"
+        },
+        {
+            "id": "cpu-04",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=AMD+Ryzen+7+7800X3D",
+            "title": "AMD Ryzen 7 7800X3D",
+            "type": "CPU",
+            "brief_explanation": "The undisputed gaming king thanks to 3D V-Cache technology, specifically designed to deliver the highest frame rates in modern games.",
+            "specifications": {
+                "brand": "AMD",
+                "cores_threads": "8 Cores / 16 Threads",
+                "clock_speed": "4.2GHz up to 5.0GHz",
+                "socket": "AM5",
+                "overclockable": true,
+                "integrated_graphics": true
+            },
+            "price": "Rp6.500.000"
+        },
+        {
+            "id": "gpu-01",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=NVIDIA+RTX+4090",
+            "title": "NVIDIA GeForce RTX 4090",
+            "type": "GPU",
+            "brief_explanation": "The world's fastest consumer graphics card, capable of running any game at 4K resolution with maximum ray tracing.",
+            "specifications": {
+                "brand": "NVIDIA",
+                "vram": "24GB GDDR6X",
+                "interface": "PCIe 4.0",
+                "boost_clock": "2520 MHz"
+            },
+            "price": "Rp35.000.000"
+        },
+        {
+            "id": "gpu-02",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=AMD+Radeon+RX+7900+XTX",
+            "title": "AMD Radeon RX 7900 XTX",
+            "type": "GPU",
+            "brief_explanation": "AMD's flagship GPU offering beastly rasterization performance and large VRAM, ideal for 4K gaming and creative work.",
+            "specifications": {
+                "brand": "AMD",
+                "vram": "24GB GDDR6",
+                "interface": "PCIe 4.0",
+                "boost_clock": "2500 MHz"
+            },
+            "price": "Rp18.500.000"
+        },
+        {
+            "id": "gpu-03",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=NVIDIA+RTX+4070+Ti",
+            "title": "NVIDIA GeForce RTX 4070 Ti",
+            "type": "GPU",
+            "brief_explanation": "Fantastic 1440p gaming performance with outstanding power efficiency and support for cutting-edge DLSS 3 technology.",
+            "specifications": {
+                "brand": "NVIDIA",
+                "vram": "12GB GDDR6X",
+                "interface": "PCIe 4.0",
+                "boost_clock": "2610 MHz"
+            },
+            "price": "Rp14.200.000"
+        },
+        {
+            "id": "gpu-04",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=NVIDIA+RTX+3060",
+            "title": "NVIDIA GeForce RTX 3060",
+            "type": "GPU",
+            "brief_explanation": "The most popular choice for 1080p gaming, offering ample VRAM and solid ray tracing performance in its class.",
+            "specifications": {
+                "brand": "NVIDIA",
+                "vram": "12GB GDDR6",
+                "interface": "PCIe 4.0",
+                "boost_clock": "1777 MHz"
+            },
+            "price": "Rp5.500.000"
+        },
+        {
+            "id": "mobo-01",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=ASUS+ROG+Z790+HERO",
+            "title": "ASUS ROG MAXIMUS Z790 HERO",
+            "type": "Motherboard",
+            "brief_explanation": "A high-end motherboard for enthusiasts and overclockers, equipped with premium features to maximize the potential of Intel processors.",
+            "specifications": {
+                "brand": "ASUS",
+                "chipset": "Intel Z790",
+                "socket": "LGA 1700",
+                "form_factor": "ATX",
+                "memory_support": "DDR5"
+            },
+            "price": "Rp11.000.000"
+        },
+        {
+            "id": "mobo-02",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=MSI+B650+Tomahawk",
+            "title": "MSI MAG B650 TOMAHAWK WIFI",
+            "type": "Motherboard",
+            "brief_explanation": "A solid choice for AMD Ryzen 7000 series processors, offering robust VRMs and modern connectivity at a competitive price.",
+            "specifications": {
+                "brand": "MSI",
+                "chipset": "AMD B650",
+                "socket": "AM5",
+                "form_factor": "ATX",
+                "memory_support": "DDR5"
+            },
+            "price": "Rp4.100.000"
+        },
+        {
+            "id": "mobo-03",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=Gigabyte+B550+AORUS",
+            "title": "Gigabyte B550 AORUS ELITE V2",
+            "type": "Motherboard",
+            "brief_explanation": "A reliable motherboard for the AM4 platform that offers essential gaming features and PCIe 4.0 support for mid-range builds.",
+            "specifications": {
+                "brand": "Gigabyte",
+                "chipset": "AMD B550",
+                "socket": "AM4",
+                "form_factor": "ATX",
+                "memory_support": "DDR4"
+            },
+            "price": "Rp2.800.000"
+        },
+        {
+            "id": "mobo-04",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=ASRock+B760M+Steel+Legend",
+            "title": "ASRock B760M Steel Legend WiFi",
+            "type": "Motherboard",
+            "brief_explanation": "A high-performance Micro-ATX motherboard with attractive aesthetics, perfect for compact yet powerful Intel builds.",
+            "specifications": {
+                "brand": "ASRock",
+                "chipset": "Intel B760",
+                "socket": "LGA 1700",
+                "form_factor": "Micro-ATX",
+                "memory_support": "DDR5"
+            },
+            "price": "Rp3.200.000"
+        },
+        {
+            "id": "ram-01",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=Corsair+Vengeance+DDR5",
+            "title": "Corsair Vengeance DDR5 32GB 6000MHz",
+            "type": "RAM",
+            "brief_explanation": "A high-speed DDR5 memory kit that has become the new standard for modern gaming PCs, ensuring smooth and responsive multitasking.",
+            "specifications": {
+                "brand": "Corsair",
+                "type": "DDR5",
+                "capacity": "32GB",
+                "speed": "6000MHz",
+                "configuration": "2x16GB"
+            },
+            "price": "Rp2.100.000"
+        },
+        {
+            "id": "ram-02",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=G.Skill+Trident+Z5+RGB",
+            "title": "G.Skill Trident Z5 RGB DDR5 32GB 6400MHz",
+            "type": "RAM",
+            "brief_explanation": "Premium DDR5 RAM with a futuristic design and extreme overclocking performance for those seeking the highest speeds.",
+            "specifications": {
+                "brand": "G.Skill",
+                "type": "DDR5",
+                "capacity": "32GB",
+                "speed": "6400MHz",
+                "configuration": "2x16GB"
+            },
+            "price": "Rp2.500.000"
+        },
+        {
+            "id": "ram-03",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=Kingston+Fury+Beast+DDR4",
+            "title": "Kingston Fury Beast DDR4 16GB 3200MHz",
+            "type": "RAM",
+            "brief_explanation": "Reliable DDR4 memory at an affordable price, a great choice for upgrading or building entry-level to mid-range gaming PCs.",
+            "specifications": {
+                "brand": "Kingston",
+                "type": "DDR4",
+                "capacity": "16GB",
+                "speed": "3200MHz",
+                "configuration": "2x8GB"
+            },
+            "price": "Rp850.000"
+        },
+        {
+            "id": "ram-04",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=Teamgroup+T-Force+Delta",
+            "title": "Teamgroup T-Force Delta RGB DDR4 16GB 3600MHz",
+            "type": "RAM",
+            "brief_explanation": "A combination of fast DDR4 performance and stunning RGB lighting to beautify your gaming rig.",
+            "specifications": {
+                "brand": "Teamgroup",
+                "type": "DDR4",
+                "capacity": "16GB",
+                "speed": "3600MHz",
+                "configuration": "2x8GB"
+            },
+            "price": "Rp950.000"
+        },
+        {
+            "id": "ssd-01",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=Samsung+980+Pro+1TB",
+            "title": "Samsung 980 Pro 1TB",
+            "type": "SSD",
+            "brief_explanation": "A super-fast Gen4 NVMe SSD that drastically cuts down game and application load times, a popular choice for modern PC builds.",
+            "specifications": {
+                "brand": "Samsung",
+                "capacity": "1TB",
+                "type": "NVMe",
+                "interface": "PCIe Gen4",
+                "form_factor": "M.2"
+            },
+            "price": "Rp1.800.000"
+        },
+        {
+            "id": "ssd-02",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=WD+Black+SN850X+2TB",
+            "title": "WD Black SN850X 2TB",
+            "type": "SSD",
+            "brief_explanation": "Top-tier NVMe storage with extreme read/write speeds, specifically designed for hardcore gaming and professional workflows.",
+            "specifications": {
+                "brand": "Western Digital",
+                "capacity": "2TB",
+                "type": "NVMe",
+                "interface": "PCIe Gen4",
+                "form_factor": "M.2"
+            },
+            "price": "Rp3.500.000"
+        },
+        {
+            "id": "ssd-03",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=Crucial+P5+Plus+1TB",
+            "title": "Crucial P5 Plus 1TB",
+            "type": "SSD",
+            "brief_explanation": "Offers impressive Gen4 performance with excellent value, making it a significant upgrade for any PC.",
+            "specifications": {
+                "brand": "Crucial",
+                "capacity": "1TB",
+                "type": "NVMe",
+                "interface": "PCIe Gen4",
+                "form_factor": "M.2"
+            },
+            "price": "Rp1.600.000"
+        },
+        {
+            "id": "ssd-04",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=Samsung+870+EVO+500GB",
+            "title": "Samsung 870 EVO 500GB",
+            "type": "SSD",
+            "brief_explanation": "A highly reliable and proven SATA SSD, the perfect choice for speeding up an older laptop or PC as a system drive.",
+            "specifications": {
+                "brand": "Samsung",
+                "capacity": "500GB",
+                "type": "SATA",
+                "interface": "SATA III",
+                "form_factor": "2.5-inch"
+            },
+            "price": "Rp750.000"
+        },
+        {
+            "id": "psu-01",
+            "img_dir": "https://placehold.co/600x400/a16207/ffffff?text=Corsair+RM850x",
+            "title": "Corsair RM850x",
+            "type": "PSU",
+            "brief_explanation": "A premium power supply with Gold efficiency and high-quality components, delivering stable and quiet power for high-end PCs.",
+            "specifications": {
+                "brand": "Corsair",
+                "wattage": "850W",
+                "efficiency": "80+ Gold",
+                "modularity": "Fully Modular"
+            },
+            "price": "Rp2.300.000"
+        },
+        {
+            "id": "psu-02",
+            "img_dir": "https://placehold.co/600x400/a16207/ffffff?text=Seasonic+FOCUS+GX-750",
+            "title": "Seasonic FOCUS GX-750",
+            "type": "PSU",
+            "brief_explanation": "One of the most trusted 750W PSUs on the market, offering Seasonic's reliability in a compact and efficient package.",
+            "specifications": {
+                "brand": "Seasonic",
+                "wattage": "750W",
+                "efficiency": "80+ Gold",
+                "modularity": "Fully Modular"
+            },
+            "price": "Rp1.900.000"
+        },
+        {
+            "id": "psu-03",
+            "img_dir": "https://placehold.co/600x400/a16207/ffffff?text=be+quiet!+Pure+Power+11",
+            "title": "be quiet! Pure Power 11",
+            "type": "PSU",
+            "brief_explanation": "Combines very quiet operation with Gold efficiency, an ideal choice for those who prioritize a silent PC.",
+            "specifications": {
+                "brand": "be quiet!",
+                "wattage": "600W",
+                "efficiency": "80+ Gold",
+                "modularity": "Semi Modular"
+            },
+            "price": "Rp1.300.000"
+        },
+        {
+            "id": "psu-04",
+            "img_dir": "https://placehold.co/600x400/a16207/ffffff?text=Cooler+Master+MWE+550",
+            "title": "Cooler Master MWE 550 Bronze V2",
+            "type": "PSU",
+            "brief_explanation": "A dependable Bronze-certified power supply that provides stable power for entry-level to mid-range PC systems.",
+            "specifications": {
+                "brand": "Cooler Master",
+                "wattage": "550W",
+                "efficiency": "80+ Bronze",
+                "modularity": "Non Modular"
+            },
+            "price": "Rp800.000"
+        },
+        {
+            "id": "cooler-01",
+            "img_dir": "https://placehold.co/600x400/0c4a6e/ffffff?text=Noctua+NH-D15",
+            "title": "Noctua NH-D15 chromax.black",
+            "type": "CPU Cooler",
+            "brief_explanation": "A legendary air cooler offering AIO-level performance with superior quietness, now in an all-black design.",
+            "specifications": {
+                "brand": "Noctua",
+                "type": "Air Cooler",
+                "size": "Dual Tower 140mm"
+            },
+            "price": "Rp1.800.000"
+        },
+        {
+            "id": "cooler-02",
+            "img_dir": "https://placehold.co/600x400/0c4a6e/ffffff?text=Deepcool+AK620",
+            "title": "Deepcool AK620",
+            "type": "CPU Cooler",
+            "brief_explanation": "A dual-tower air cooler that delivers outstanding cooling performance at a very competitive price.",
+            "specifications": {
+                "brand": "Deepcool",
+                "type": "Air Cooler",
+                "size": "Dual Tower 120mm"
+            },
+            "price": "Rp950.000"
+        },
+        {
+            "id": "cooler-03",
+            "img_dir": "https://placehold.co/600x400/0c4a6e/ffffff?text=ARCTIC+Liquid+Freezer+II",
+            "title": "ARCTIC Liquid Freezer II 360",
+            "type": "CPU Cooler",
+            "brief_explanation": "An award-winning AIO liquid cooler known for its thick radiator and best-in-class cooling performance.",
+            "specifications": {
+                "brand": "ARCTIC",
+                "type": "AIO Liquid Cooler",
+                "size": "360mm Radiator"
+            },
+            "price": "Rp2.500.000"
+        },
+        {
+            "id": "cooler-04",
+            "img_dir": "https://placehold.co/600x400/0c4a6e/ffffff?text=Corsair+H150i+ELITE",
+            "title": "Corsair iCUE H150i ELITE CAPELLIX XT",
+            "type": "CPU Cooler",
+            "brief_explanation": "Combines high-performance liquid cooling with vibrant, customizable RGB lighting through the iCUE ecosystem.",
+            "specifications": {
+                "brand": "Corsair",
+                "type": "AIO Liquid Cooler",
+                "size": "360mm Radiator"
+            },
+            "price": "Rp3.200.000"
+        },
+        {
+            "id": "case-01",
+            "img_dir": "https://placehold.co/600x400/4a044e/ffffff?text=NZXT+H5+Flow",
+            "title": "NZXT H5 Flow",
+            "type": "Case",
+            "brief_explanation": "A modern case with a minimalist design and superior airflow, making assembly easy and keeping components cool.",
+            "specifications": {
+                "brand": "NZXT",
+                "type": "Mid Tower",
+                "motherboard_support": "ATX, Micro-ATX, Mini-ITX"
+            },
+            "price": "Rp1.400.000"
+        },
+        {
+            "id": "case-02",
+            "img_dir": "https://placehold.co/600x400/4a044e/ffffff?text=Lian+Li+O11+Dynamic",
+            "title": "Lian Li O11 Dynamic EVO",
+            "type": "Case",
+            "brief_explanation": "An iconic dual-chamber case perfect for showcasing your PC components with limitless customization options.",
+            "specifications": {
+                "brand": "Lian Li",
+                "type": "Mid Tower",
+                "motherboard_support": "E-ATX, ATX, Micro-ATX, Mini-ITX"
+            },
+            "price": "Rp2.800.000"
+        },
+        {
+            "id": "case-03",
+            "img_dir": "https://placehold.co/600x400/4a044e/ffffff?text=Fractal+Design+Meshify+C",
+            "title": "Fractal Design Meshify C",
+            "type": "Case",
+            "brief_explanation": "Elegant Scandinavian design meets high-airflow performance thanks to its distinctive mesh front panel.",
+            "specifications": {
+                "brand": "Fractal Design",
+                "type": "Mid Tower",
+                "motherboard_support": "ATX, Micro-ATX, Mini-ITX"
+            },
+            "price": "Rp1.600.000"
+        },
+        {
+            "id": "case-04",
+            "img_dir": "https://placehold.co/600x400/4a044e/ffffff?text=Corsair+4000D+Airflow",
+            "title": "Corsair 4000D AIRFLOW",
+            "type": "Case",
+            "brief_explanation": "A PC builder favorite due to its easy cable management and exceptional cooling potential.",
+            "specifications": {
+                "brand": "Corsair",
+                "type": "Mid Tower",
+                "motherboard_support": "ATX, Micro-ATX, Mini-ITX"
+            },
+            "price": "Rp1.500.000"
+        },
+        {
+            "id": "cpu-05",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=AMD+Ryzen+5+5600",
+            "title": "AMD Ryzen 5 5600",
+            "type": "CPU",
+            "brief_explanation": "The best value processor for 1080p gaming, offering fast 6-core performance at a very affordable price.",
+            "specifications": {
+                "brand": "AMD",
+                "cores_threads": "6 Cores / 12 Threads",
+                "clock_speed": "3.5GHz up to 4.4GHz",
+                "socket": "AM4",
+                "overclockable": true,
+                "integrated_graphics": false
+            },
+            "price": "Rp2.100.000"
+        },
+        {
+            "id": "gpu-05",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=AMD+Radeon+RX+6600",
+            "title": "AMD Radeon RX 6600",
+            "type": "GPU",
+            "brief_explanation": "A very power-efficient graphics card, designed to deliver a smooth and satisfying 1080p gaming experience.",
+            "specifications": {
+                "brand": "AMD",
+                "vram": "8GB GDDR6",
+                "interface": "PCIe 4.0",
+                "boost_clock": "2491 MHz"
+            },
+            "price": "Rp3.800.000"
+        },
+        {
+            "id": "mobo-05",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=ASUS+TUF+B550-PLUS",
+            "title": "ASUS TUF GAMING B550-PLUS WIFI II",
+            "type": "Motherboard",
+            "brief_explanation": "Built with military-grade components, this motherboard offers durability and stability for a tough AMD gaming build.",
+            "specifications": {
+                "brand": "ASUS",
+                "chipset": "AMD B550",
+                "socket": "AM4",
+                "form_factor": "ATX",
+                "memory_support": "DDR4"
+            },
+            "price": "Rp3.100.000"
+        },
+        {
+            "id": "ram-05",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=Crucial+Ballistix+DDR4",
+            "title": "Crucial Ballistix DDR4 32GB 3200MHz",
+            "type": "RAM",
+            "brief_explanation": "A reliable 32GB memory kit, suitable for users needing more capacity for video editing or heavy multitasking.",
+            "specifications": {
+                "brand": "Crucial",
+                "type": "DDR4",
+                "capacity": "32GB",
+                "speed": "3200MHz",
+                "configuration": "2x16GB"
+            },
+            "price": "Rp1.500.000"
+        },
+        {
+            "id": "ssd-05",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=Kingston+NV2+1TB",
+            "title": "Kingston NV2 1TB",
+            "type": "SSD",
+            "brief_explanation": "An entry-level Gen4 NVMe SSD that offers a significant speed upgrade from SATA at a very attractive price.",
+            "specifications": {
+                "brand": "Kingston",
+                "capacity": "1TB",
+                "type": "NVMe",
+                "interface": "PCIe Gen4",
+                "form_factor": "M.2"
+            },
+            "price": "Rp900.000"
+        },
+        {
+            "id": "psu-05",
+            "img_dir": "https://placehold.co/600x400/a16207/ffffff?text=FSP+HV+PRO+650W",
+            "title": "FSP HV PRO 85+ 650W",
+            "type": "PSU",
+            "brief_explanation": "An efficient and cost-effective power solution, providing enough power for most mid-range gaming PCs.",
+            "specifications": {
+                "brand": "FSP",
+                "wattage": "650W",
+                "efficiency": "80+ Bronze",
+                "modularity": "Non Modular"
+            },
+            "price": "Rp750.000"
+        },
+        {
+            "id": "cooler-05",
+            "img_dir": "https://placehold.co/600x400/0c4a6e/ffffff?text=ID-COOLING+SE-224-XT",
+            "title": "ID-COOLING SE-224-XT ARGB",
+            "type": "CPU Cooler",
+            "brief_explanation": "A popular air cooler that offers great cooling performance and a touch of RGB at a price that's hard to beat.",
+            "specifications": {
+                "brand": "ID-COOLING",
+                "type": "Air Cooler",
+                "size": "Single Tower 120mm"
+            },
+            "price": "Rp350.000"
+        },
+        {
+            "id": "case-05",
+            "img_dir": "https://placehold.co/600x400/4a044e/ffffff?text=Tecware+Forge+M",
+            "title": "Tecware Forge M ARGB",
+            "type": "Case",
+            "brief_explanation": "A compact Micro-ATX case that has excellent airflow thanks to its mesh front panel and included ARGB fans.",
+            "specifications": {
+                "brand": "Tecware",
+                "type": "Micro-ATX Tower",
+                "motherboard_support": "Micro-ATX, Mini-ITX"
+            },
+            "price": "Rp600.000"
+        },
+        {
+            "id": "cpu-06",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Intel+Core+i3-12100F",
+            "title": "Intel Core i3-12100F",
+            "type": "CPU",
+            "brief_explanation": "A surprisingly capable entry-level processor, delivering fast single-core performance ideal for budget gaming PCs.",
+            "specifications": {
+                "brand": "Intel",
+                "cores_threads": "4 Cores / 8 Threads",
+                "clock_speed": "3.3GHz up to 4.3GHz",
+                "socket": "LGA 1700",
+                "overclockable": false,
+                "integrated_graphics": false
+            },
+            "price": "Rp1.500.000"
+        },
+        {
+            "id": "gpu-06",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=NVIDIA+GTX+1650",
+            "title": "NVIDIA GeForce GTX 1650",
+            "type": "GPU",
+            "brief_explanation": "A power-efficient graphics card capable of smoothly running popular e-sports titles without needing extra power connectors.",
+            "specifications": {
+                "brand": "NVIDIA",
+                "vram": "4GB GDDR6",
+                "interface": "PCIe 3.0",
+                "boost_clock": "1590 MHz"
+            },
+            "price": "Rp2.500.000"
+        },
+        {
+            "id": "mobo-06",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=MSI+PRO+H610M-G",
+            "title": "MSI PRO H610M-G DDR4",
+            "type": "Motherboard",
+            "brief_explanation": "A basic motherboard providing all the essential features to build a functional and affordable 12th Gen Intel PC.",
+            "specifications": {
+                "brand": "MSI",
+                "chipset": "Intel H610",
+                "socket": "LGA 1700",
+                "form_factor": "Micro-ATX",
+                "memory_support": "DDR4"
+            },
+            "price": "Rp1.300.000"
+        },
+        {
+            "id": "ram-06",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=Patriot+Viper+Steel+16GB",
+            "title": "Patriot Viper Steel DDR4 16GB 4400MHz",
+            "type": "RAM",
+            "brief_explanation": "A very high-frequency DDR4 kit for overclockers and users looking to squeeze every drop of performance from their system.",
+            "specifications": {
+                "brand": "Patriot",
+                "type": "DDR4",
+                "capacity": "16GB",
+                "speed": "4400MHz",
+                "configuration": "2x8GB"
+            },
+            "price": "Rp1.200.000"
+        },
+        {
+            "id": "ssd-06",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=ADATA+XPG+SX8200+Pro",
+            "title": "ADATA XPG SX8200 Pro 1TB",
+            "type": "SSD",
+            "brief_explanation": "A tried-and-true Gen3 NVMe SSD, offering consistent speed and high endurance for various needs.",
+            "specifications": {
+                "brand": "ADATA",
+                "capacity": "1TB",
+                "type": "NVMe",
+                "interface": "PCIe Gen3",
+                "form_factor": "M.2"
+            },
+            "price": "Rp1.100.000"
+        },
+        {
+            "id": "psu-06",
+            "img_dir": "https://placehold.co/600x400/a16207/ffffff?text=EVGA+SuperNOVA+1000+G5",
+            "title": "EVGA SuperNOVA 1000 G5",
+            "type": "PSU",
+            "brief_explanation": "Provides a massive and stable 1000W of power, ready to handle PCs with multi-GPU configurations or the most power-hungry components.",
+            "specifications": {
+                "brand": "EVGA",
+                "wattage": "1000W",
+                "efficiency": "80+ Gold",
+                "modularity": "Fully Modular"
+            },
+            "price": "Rp3.500.000"
+        },
+        {
+            "id": "cooler-06",
+            "img_dir": "https://placehold.co/600x400/0c4a6e/ffffff?text=be+quiet!+Dark+Rock+Pro+4",
+            "title": "be quiet! Dark Rock Pro 4",
+            "type": "CPU Cooler",
+            "brief_explanation": "Offers extreme cooling performance with virtually inaudible operation, making it a favorite for workstations and silent PC builds.",
+            "specifications": {
+                "brand": "be quiet!",
+                "type": "Air Cooler",
+                "size": "Dual Tower 135mm/120mm"
+            },
+            "price": "Rp1.600.000"
+        },
+        {
+            "id": "case-06",
+            "img_dir": "https://placehold.co/600x400/4a044e/ffffff?text=HYTE+Y60",
+            "title": "HYTE Y60",
+            "type": "Case",
+            "brief_explanation": "A visually stunning panoramic case with three sides of tempered glass, designed to be a centerpiece.",
+            "specifications": {
+                "brand": "HYTE",
+                "type": "Mid Tower Panoramic",
+                "motherboard_support": "E-ATX, ATX, Micro-ATX, Mini-ITX"
+            },
+            "price": "Rp3.100.000"
+        },
+        {
+            "id": "cpu-07",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=AMD+Ryzen+5+5600G",
+            "title": "AMD Ryzen 5 5600G",
+            "type": "CPU",
+            "brief_explanation": "A great all-in-one solution, combining a capable 6-core processor with integrated graphics powerful enough for light gaming.",
+            "specifications": {
+                "brand": "AMD",
+                "cores_threads": "6 Cores / 12 Threads",
+                "clock_speed": "3.9GHz up to 4.4GHz",
+                "socket": "AM4",
+                "overclockable": true,
+                "integrated_graphics": true
+            },
+            "price": "Rp2.300.000"
+        },
+        {
+            "id": "gpu-07",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=AMD+Radeon+RX+7800+XT",
+            "title": "AMD Radeon RX 7800 XT",
+            "type": "GPU",
+            "brief_explanation": "The champion of 1440p resolution, offering very strong rasterization performance and 16GB of VRAM for future games.",
+            "specifications": {
+                "brand": "AMD",
+                "vram": "16GB GDDR6",
+                "interface": "PCIe 4.0",
+                "boost_clock": "2430 MHz"
+            },
+            "price": "Rp9.500.000"
+        }
+    ]
+}

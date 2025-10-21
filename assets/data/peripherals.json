@@ -1,0 +1,722 @@
+{
+    "peripherals_card": [
+        {
+            "id": "key-01",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Mchose+A60+Pro",
+            "title": "Mchose Ace 60 Pro Rapid Trigger",
+            "type": "Keyboard",
+            "brief_explanation": "A compact gaming keyboard with magnetic switch technology and rapid trigger for super-fast actuation, ideal for competitive players.",
+            "specifications": {
+                "layout": "60%",
+                "switch_type": "Magnetic Switches",
+                "connectivity": "Wired USB-C",
+                "keycaps": "PBT Doubleshot",
+                "features": "Rapid Trigger, Adjustable Actuation"
+            },
+            "price": "Rp650.000"
+        },
+        {
+            "id": "key-02",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=VortexSeries+VX7+Pro",
+            "title": "VortexSeries VX7 Pro",
+            "type": "Keyboard",
+            "brief_explanation": "A premium mechanical keyboard with a gasket mount for a soft typing experience and a satisfying sound.",
+            "specifications": {
+                "layout": "75%",
+                "switch_type": "Gateron Mechanical (Hot-swappable)",
+                "connectivity": "Tri-mode (Wired, 2.4GHz, Bluetooth)",
+                "keycaps": "PBT Dye-sub",
+                "features": "Gasket Mount, Rotary Knob, South-facing RGB"
+            },
+            "price": "Rp1.500.000"
+        },
+        {
+            "id": "key-03",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Keychron+K2+V2",
+            "title": "Keychron K2 V2 Mechanical Keyboard",
+            "type": "Keyboard",
+            "brief_explanation": "One of the most popular wireless keyboards, offering seamless cross-platform compatibility between Mac and Windows.",
+            "specifications": {
+                "layout": "75%",
+                "switch_type": "Gateron Mechanical (Hot-swappable)",
+                "connectivity": "Bluetooth 5.1, Wired USB-C",
+                "keycaps": "ABS",
+                "features": "Mac & Windows layout, Compact design"
+            },
+            "price": "Rp1.250.000"
+        },
+        {
+            "id": "key-04",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Fantech+MAXFIT67",
+            "title": "Fantech MAXFIT67 Wireless",
+            "type": "Keyboard",
+            "brief_explanation": "An excellent entry-level customizable keyboard, offering hot-swap features and a rotary knob at a very attractive price.",
+            "specifications": {
+                "layout": "65%",
+                "switch_type": "Outemu Mechanical (Hot-swappable)",
+                "connectivity": "Tri-mode (Wired, 2.4GHz, Bluetooth)",
+                "keycaps": "PBT Dye-sub",
+                "features": "Rotary Knob, South-facing RGB"
+            },
+            "price": "Rp950.000"
+        },
+        {
+            "id": "key-05",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Razer+Huntsman+Mini",
+            "title": "Razer Huntsman Mini 60% Optical",
+            "type": "Keyboard",
+            "brief_explanation": "A 60% keyboard that relies on the speed of light with Razer optical switches for instant in-game input.",
+            "specifications": {
+                "layout": "60%",
+                "switch_type": "Razer Optical Switches",
+                "connectivity": "Wired (Detachable USB-C)",
+                "keycaps": "Doubleshot PBT",
+                "features": "Onboard Memory, Chroma RGB"
+            },
+            "price": "Rp1.800.000"
+        },
+        {
+            "id": "key-06",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Logitech+G+Pro+X+TKL",
+            "title": "Logitech G Pro X TKL Lightspeed",
+            "type": "Keyboard",
+            "brief_explanation": "Designed with e-sports professionals, this TKL keyboard offers a reliable Lightspeed wireless connection and swappable switches.",
+            "specifications": {
+                "layout": "Tenkeyless (TKL)",
+                "switch_type": "GX Mechanical (Hot-swappable)",
+                "connectivity": "Lightspeed Wireless, Bluetooth, Wired",
+                "keycaps": "Doubleshot PBT",
+                "features": "Pro-grade design, Media controls"
+            },
+            "price": "Rp2.499.000"
+        },
+        {
+            "id": "key-07",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=SteelSeries+Apex+Pro",
+            "title": "SteelSeries Apex Pro TKL",
+            "type": "Keyboard",
+            "brief_explanation": "A revolutionary keyboard with OmniPoint switches that allow users to individually set the actuation point of each key.",
+            "specifications": {
+                "layout": "Tenkeyless (TKL)",
+                "switch_type": "OmniPoint Adjustable Mechanical",
+                "connectivity": "Wired USB-A",
+                "keycaps": "ABS",
+                "features": "Adjustable Actuation, OLED Smart Display"
+            },
+            "price": "Rp3.200.000"
+        },
+        {
+            "id": "key-08",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Royal+Kludge+RK61",
+            "title": "Royal Kludge RK61 Wireless 60%",
+            "type": "Keyboard",
+            "brief_explanation": "The best choice for a budget-friendly 60% wireless mechanical keyboard, ideal for beginners in the custom keyboard world.",
+            "specifications": {
+                "layout": "60%",
+                "switch_type": "RK Mechanical (Hot-swappable)",
+                "connectivity": "Bluetooth, Wired",
+                "keycaps": "ABS Doubleshot",
+                "features": "Multi-device pairing"
+            },
+            "price": "Rp620.000"
+        },
+        {
+            "id": "key-09",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Logitech+MX+Keys+S",
+            "title": "Logitech MX Keys S Wireless Productivity",
+            "type": "Keyboard",
+            "brief_explanation": "A low-profile keyboard designed for comfort and productivity, providing a precise and quiet typing experience.",
+            "specifications": {
+                "layout": "Full-size",
+                "switch_type": "Perfect Stroke Scissor Switches",
+                "connectivity": "Logi Bolt, Bluetooth",
+                "keycaps": "Low-profile, Spherically-dished",
+                "features": "Smart Illumination, Easy-Switch"
+            },
+            "price": "Rp1.750.000"
+        },
+        {
+            "id": "key-10",
+            "img_dir": "https://placehold.co/600x400/1e293b/ffffff?text=Akko+3068B+Plus",
+            "title": "Akko 3068B Plus Prunus Lannesiana",
+            "type": "Keyboard",
+            "brief_explanation": "Combines a unique design aesthetic with solid build quality, offering a pleasant typing experience.",
+            "specifications": {
+                "layout": "65%",
+                "switch_type": "Akko CS Switches (Hot-swappable)",
+                "connectivity": "Tri-mode (Wired, 2.4GHz, Bluetooth)",
+                "keycaps": "PBT Dye-sub",
+                "features": "Unique colorway, Compact layout"
+            },
+            "price": "Rp1.350.000"
+        },
+        {
+            "id": "mouse-01",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=Logitech+Superlight",
+            "title": "Logitech G Pro X Superlight",
+            "type": "Mouse",
+            "brief_explanation": "An ultra-lightweight wireless gaming mouse that is a staple for professional e-sports players worldwide.",
+            "specifications": {
+                "sensor": "HERO 25K",
+                "connectivity": "Lightspeed Wireless",
+                "dpi": "up to 25,600",
+                "weight": "<63g",
+                "buttons": 5
+            },
+            "price": "Rp1.950.000"
+        },
+        {
+            "id": "mouse-02",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=Razer+Viper+V2+Pro",
+            "title": "Razer Viper V2 Pro",
+            "type": "Mouse",
+            "brief_explanation": "Even lighter than its predecessor, this mouse is designed for maximum speed and precision in competitive FPS games.",
+            "specifications": {
+                "sensor": "Focus Pro 30K Optical",
+                "connectivity": "HyperSpeed Wireless",
+                "dpi": "up to 30,000",
+                "weight": "58g",
+                "buttons": 5
+            },
+            "price": "Rp2.250.000"
+        },
+        {
+            "id": "mouse-03",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=Lamzu+Atlantis+Mini",
+            "title": "Lamzu Atlantis Mini Pro",
+            "type": "Mouse",
+            "brief_explanation": "A high-performance wireless gaming mouse in a small size, suitable for users with small to medium hands and a claw/fingertip grip.",
+            "specifications": {
+                "sensor": "PixArt PAW3395",
+                "connectivity": "Wireless 2.4GHz, Wired",
+                "dpi": "up to 26,000",
+                "weight": "49g",
+                "buttons": 6
+            },
+            "price": "Rp1.400.000"
+        },
+        {
+            "id": "mouse-04",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=Fantech+Aria+XD7",
+            "title": "Fantech Aria XD7 Wireless",
+            "type": "Mouse",
+            "brief_explanation": "Offers high-end specifications like a flagship sensor and premium switches at a very competitive price.",
+            "specifications": {
+                "sensor": "PixArt PAW3395",
+                "connectivity": "Tri-mode (Wired, 2.4GHz, Bluetooth)",
+                "dpi": "up to 26,000",
+                "weight": "59g",
+                "buttons": 6
+            },
+            "price": "Rp849.000"
+        },
+        {
+            "id": "mouse-05",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=Pulsar+X2V2+Mini",
+            "title": "Pulsar X2V2 Mini Wireless",
+            "type": "Mouse",
+            "brief_explanation": "The latest version of the popular Pulsar X2 Mini, with improved build quality and precise optical switch technology.",
+            "specifications": {
+                "sensor": "PixArt PAW3395",
+                "connectivity": "Wireless 2.4GHz, Wired",
+                "dpi": "up to 26,000",
+                "weight": "52g",
+                "buttons": 5
+            },
+            "price": "Rp1.550.000"
+        },
+        {
+            "id": "mouse-06",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=Rexus+Daxa+Air+IV",
+            "title": "Rexus Daxa Air IV Wireless",
+            "type": "Mouse",
+            "brief_explanation": "A lightweight wireless gaming mouse from a local brand that offers modern features like a capable sensor and low weight.",
+            "specifications": {
+                "sensor": "PixArt PAW3395",
+                "connectivity": "Tri-mode (Wired, 2.4GHz, Bluetooth)",
+                "dpi": "up to 26,000",
+                "weight": "64g",
+                "buttons": 6
+            },
+            "price": "Rp710.000"
+        },
+        {
+            "id": "mouse-07",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=Razer+DeathAdder+V3+Pro",
+            "title": "Razer DeathAdder V3 Pro",
+            "type": "Mouse",
+            "brief_explanation": "The latest evolution of the most iconic ergonomic mouse, now lighter and more precise than ever.",
+            "specifications": {
+                "sensor": "Focus Pro 30K Optical",
+                "connectivity": "HyperSpeed Wireless",
+                "dpi": "up to 30,000",
+                "weight": "63g",
+                "buttons": 5
+            },
+            "price": "Rp2.300.000"
+        },
+        {
+            "id": "mouse-08",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=Logitech+MX+Master+3S",
+            "title": "Logitech MX Master 3S",
+            "type": "Mouse",
+            "brief_explanation": "The king of productivity mice, designed for maximum comfort and an efficient workflow with an electromagnetic scroll wheel.",
+            "specifications": {
+                "sensor": "Darkfield High Precision",
+                "connectivity": "Logi Bolt, Bluetooth",
+                "dpi": "up to 8,000",
+                "weight": "141g",
+                "buttons": 7
+            },
+            "price": "Rp1.650.000"
+        },
+        {
+            "id": "mouse-09",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=Zowie+EC2-C",
+            "title": "Zowie EC2-C Ergonomic Mouse",
+            "type": "Mouse",
+            "brief_explanation": "A wired mouse focused on a perfect ergonomic shape and plug-and-play performance without complicated software.",
+            "specifications": {
+                "sensor": "PixArt PMW3360",
+                "connectivity": "Wired",
+                "dpi": "400/800/1600/3200",
+                "weight": "70g",
+                "buttons": 5
+            },
+            "price": "Rp900.000"
+        },
+        {
+            "id": "mouse-10",
+            "img_dir": "https://placehold.co/600x400/4f46e5/ffffff?text=VGN+Dragonfly+F1",
+            "title": "VGN Dragonfly F1 Pro Max",
+            "type": "Mouse",
+            "brief_explanation": "An ultra-lightweight mouse with flagship specs and a large battery, providing outstanding value in its class.",
+            "specifications": {
+                "sensor": "PixArt PAW3395",
+                "connectivity": "Tri-mode (Wired, 2.4GHz, Bluetooth)",
+                "dpi": "up to 26,000",
+                "weight": "55g",
+                "buttons": 5
+            },
+            "price": "Rp950.000"
+        },
+        {
+            "id": "headset-01",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=SteelSeries+Arctis+Nova+Pro",
+            "title": "SteelSeries Arctis Nova Pro Wireless",
+            "type": "Headset",
+            "brief_explanation": "A premium gaming audio system offering hi-fi sound quality, dual connectivity, and active noise cancelling.",
+            "specifications": {
+                "driver_size": "40mm Neodymium",
+                "connectivity": "Dual Wireless (2.4GHz + Bluetooth)",
+                "microphone": "Retractable ClearCast Gen 2",
+                "features": "Active Noise Cancelling, Swappable Battery"
+            },
+            "price": "Rp6.499.000"
+        },
+        {
+            "id": "headset-02",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=Logitech+G733",
+            "title": "Logitech G733 Lightspeed Wireless",
+            "type": "Headset",
+            "brief_explanation": "A lightweight and stylish wireless headset, equipped with RGB lighting and immersive surround sound quality.",
+            "specifications": {
+                "driver_size": "PRO-G 40mm",
+                "connectivity": "Lightspeed Wireless",
+                "microphone": "Detachable with Blue VO!CE tech",
+                "features": "Lightweight Design, Front-facing RGB"
+            },
+            "price": "Rp1.850.000"
+        },
+        {
+            "id": "headset-03",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=Razer+BlackShark+V2+Pro",
+            "title": "Razer BlackShark V2 Pro",
+            "type": "Headset",
+            "brief_explanation": "A wireless e-sports headset focused on accurate positional audio and superior passive noise isolation.",
+            "specifications": {
+                "driver_size": "TriForce Titanium 50mm",
+                "connectivity": "HyperSpeed Wireless",
+                "microphone": "Detachable HyperClear Supercardioid",
+                "features": "THX Spatial Audio, Passive Noise Cancellation"
+            },
+            "price": "Rp2.799.000"
+        },
+        {
+            "id": "headset-04",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=HyperX+Cloud+II",
+            "title": "HyperX Cloud II Wireless",
+            "type": "Headset",
+            "brief_explanation": "The wireless version of the legendary headset known for its comfort and balanced sound quality.",
+            "specifications": {
+                "driver_size": "53mm Neodymium",
+                "connectivity": "2.4GHz Wireless",
+                "microphone": "Detachable Noise-Cancelling",
+                "features": "7.1 Virtual Surround Sound, Signature Comfort"
+            },
+            "price": "Rp2.199.000"
+        },
+        {
+            "id": "headset-05",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=Fantech+Captain+7.1",
+            "title": "Fantech Captain 7.1 HG11",
+            "type": "Headset",
+            "brief_explanation": "An entry-level gaming headset offering 7.1 surround sound and RGB features at a very affordable price.",
+            "specifications": {
+                "driver_size": "50mm",
+                "connectivity": "Wired USB",
+                "microphone": "Omnidirectional",
+                "features": "7.1 Virtual Surround Sound, RGB Lighting"
+            },
+            "price": "Rp349.000"
+        },
+        {
+            "id": "headset-06",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=Sony+INZONE+H9",
+            "title": "Sony INZONE H9 Wireless Noise Canceling",
+            "type": "Headset",
+            "brief_explanation": "A gaming headset from Sony that brings the premium noise cancelling technology from their headphones to the gaming world.",
+            "specifications": {
+                "driver_size": "40mm Dome Type",
+                "connectivity": "Wireless (2.4GHz + Bluetooth)",
+                "microphone": "Boom Microphone",
+                "features": "Active Noise Cancelling, 360 Spatial Sound"
+            },
+            "price": "Rp4.499.000"
+        },
+        {
+            "id": "headset-07",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=Corsair+HS80",
+            "title": "Corsair HS80 RGB Wireless",
+            "type": "Headset",
+            "brief_explanation": "Offers Dolby Atmos spatial audio quality and a broadcast-grade microphone in a comfortable design.",
+            "specifications": {
+                "driver_size": "50mm Neodymium",
+                "connectivity": "Slipstream Wireless",
+                "microphone": "Broadcast-grade Omnidirectional",
+                "features": "Dolby Atmos, Flip-to-mute mic"
+            },
+            "price": "Rp2.350.000"
+        },
+        {
+            "id": "headset-08",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=Audio-Technica+ATH-M50x",
+            "title": "Audio-Technica ATH-M50x",
+            "type": "Headset",
+            "brief_explanation": "A critically acclaimed studio monitor headphone, praised for its sound clarity and accurate bass reproduction.",
+            "specifications": {
+                "driver_size": "45mm Neodymium",
+                "connectivity": "Wired (Detachable cables)",
+                "microphone": "Not included",
+                "features": "Studio Monitoring, Collapsible Design"
+            },
+            "price": "Rp2.450.000"
+        },
+        {
+            "id": "headset-09",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=Rexus+Thundervox+HX25",
+            "title": "Rexus Thundervox HX25",
+            "type": "Headset",
+            "brief_explanation": "A lightweight and comfortable multi-platform gaming headset, suitable for long gaming sessions on a limited budget.",
+            "specifications": {
+                "driver_size": "50mm",
+                "connectivity": "Wired 3.5mm",
+                "microphone": "Detachable Noise-Cancelling",
+                "features": "Multi-platform compatibility, Lightweight"
+            },
+            "price": "Rp449.000"
+        },
+        {
+            "id": "headset-10",
+            "img_dir": "https://placehold.co/600x400/166534/ffffff?text=EPOS+H6PRO",
+            "title": "EPOS H6PRO Open Acoustic",
+            "type": "Headset",
+            "brief_explanation": "A gaming headset with an open-back design, producing a wide and natural soundstage for an immersive audio experience.",
+            "specifications": {
+                "driver_size": "42mm",
+                "connectivity": "Wired 3.5mm",
+                "microphone": "Detachable lift-to-mute boom arm",
+                "features": "Open-back design, Natural soundstage"
+            },
+            "price": "Rp2.750.000"
+        },
+        {
+            "id": "pad-01",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=Artisan+Hayate+Otsu",
+            "title": "Artisan Hayate Otsu Soft XL",
+            "type": "Mousepad",
+            "brief_explanation": "A premium gaming mousepad from Japan, famous for its build quality and unique surface that balances speed and stopping power.",
+            "specifications": {
+                "surface": "Cloth (Hybrid)",
+                "size": "XL (490x420mm)",
+                "base": "Poron Foam",
+                "type": "Speed/Control"
+            },
+            "price": "Rp899.000"
+        },
+        {
+            "id": "pad-02",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=SteelSeries+QcK",
+            "title": "SteelSeries QcK Heavy Large",
+            "type": "Mousepad",
+            "brief_explanation": "A classic, extra-thick cloth mousepad, providing comfort and a consistent surface for all types of mouse sensors.",
+            "specifications": {
+                "surface": "Micro-woven Cloth",
+                "size": "Large (450x400mm)",
+                "base": "Extra Thick Non-slip Rubber",
+                "type": "Control"
+            },
+            "price": "Rp399.000"
+        },
+        {
+            "id": "pad-03",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=Logitech+G640",
+            "title": "Logitech G640 TKL Cloth",
+            "type": "Mousepad",
+            "brief_explanation": "A medium-sized mousepad designed to provide the ideal surface friction for low-DPI mouse control.",
+            "specifications": {
+                "surface": "Cloth",
+                "size": "Large (460x400mm)",
+                "base": "Rubber",
+                "type": "Control"
+            },
+            "price": "Rp499.000"
+        },
+        {
+            "id": "pad-04",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=Razer+Strider",
+            "title": "Razer Strider Hybrid Mouse Mat Large",
+            "type": "Mousepad",
+            "brief_explanation": "A hybrid surface that combines the speed of a hard mousepad with the comfort and control of a soft one.",
+            "specifications": {
+                "surface": "Hybrid (Polyester)",
+                "size": "Large (450x410mm)",
+                "base": "Anti-slip Rubber",
+                "type": "Speed"
+            },
+            "price": "Rp459.000"
+        },
+        {
+            "id": "pad-05",
+            "img_dir": "https://placehold.co/600x400/991b1b/ffffff?text=Pressplay+Motion",
+            "title": "Pressplay Motion Deskmat",
+            "type": "Mousepad",
+            "brief_explanation": "A large-sized deskmat with various attractive designs, providing an ample surface for both keyboard and mouse.",
+            "specifications": {
+                "surface": "Cloth",
+                "size": "Deskmat (900x400mm)",
+                "base": "Rubber",
+                "type": "Control"
+            },
+            "price": "Rp250.000"
+        },
+        {
+            "id": "mic-01",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=HyperX+QuadCast+S",
+            "title": "HyperX QuadCast S RGB",
+            "type": "Microphone",
+            "brief_explanation": "A versatile USB microphone with four polar patterns and dynamic RGB lighting, perfect for streaming and podcasting.",
+            "specifications": {
+                "polar_pattern": "Stereo, Omnidirectional, Cardioid, Bidirectional",
+                "connectivity": "USB",
+                "type": "Condenser",
+                "features": "Tap-to-Mute Sensor, Gain Control"
+            },
+            "price": "Rp2.499.000"
+        },
+        {
+            "id": "mic-02",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=Rode+NT-USB+",
+            "title": "Rode NT-USB+",
+            "type": "Microphone",
+            "brief_explanation": "A studio-quality USB microphone that delivers exceptional vocal warmth and clarity for professional recording.",
+            "specifications": {
+                "polar_pattern": "Cardioid",
+                "connectivity": "USB-C",
+                "type": "Condenser",
+                "features": "Studio-grade quality, Zero-latency monitoring"
+            },
+            "price": "Rp2.800.000"
+        },
+        {
+            "id": "mic-03",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=Elgato+Wave:3",
+            "title": "Elgato Wave:3",
+            "type": "Microphone",
+            "brief_explanation": "Designed specifically for streamers, this microphone integrates with Wave Link software for superior audio control.",
+            "specifications": {
+                "polar_pattern": "Cardioid",
+                "connectivity": "USB-C",
+                "type": "Condenser",
+                "features": "Clipguard technology, Wave Link software"
+            },
+            "price": "Rp2.399.000"
+        },
+        {
+            "id": "mic-04",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=Fifine+K669B",
+            "title": "Fifine K669B USB Microphone",
+            "type": "Microphone",
+            "brief_explanation": "The best entry-level USB microphone that offers clear sound quality at a very affordable price.",
+            "specifications": {
+                "polar_pattern": "Cardioid",
+                "connectivity": "USB",
+                "type": "Condenser",
+                "features": "Volume Knob, Plug and Play"
+            },
+            "price": "Rp399.000"
+        },
+        {
+            "id": "mic-05",
+            "img_dir": "https://placehold.co/600x400/f8fafc/111827?text=Shure+MV7",
+            "title": "Shure MV7 Podcast Microphone",
+            "type": "Microphone",
+            "brief_explanation": "A hybrid (USB/XLR) microphone inspired by the legendary SM7B, delivering professional vocal quality for podcasters and streamers.",
+            "specifications": {
+                "polar_pattern": "Cardioid",
+                "connectivity": "USB, XLR",
+                "type": "Dynamic",
+                "features": "Voice Isolation Technology, Touch Panel"
+            },
+            "price": "Rp4.200.000"
+        },
+        {
+            "id": "webcam-01",
+            "img_dir": "https://placehold.co/600x400/a16207/ffffff?text=Logitech+C922",
+            "title": "Logitech C922 Pro Stream Webcam",
+            "type": "Webcam",
+            "brief_explanation": "A staple webcam for streamers, offering sharp 1080p streaming or smooth 720p at 60fps.",
+            "specifications": {
+                "resolution": "1080p/30fps or 720p/60fps",
+                "field_of_view": "78 degrees",
+                "focus_type": "Autofocus",
+                "features": "Background Replacement, Stereo Audio"
+            },
+            "price": "Rp1.499.000"
+        },
+        {
+            "id": "webcam-02",
+            "img_dir": "https://placehold.co/600x400/a16207/ffffff?text=Razer+Kiyo+Pro",
+            "title": "Razer Kiyo Pro",
+            "type": "Webcam",
+            "brief_explanation": "An advanced webcam with an adaptive light sensor for superior image quality in various lighting conditions.",
+            "specifications": {
+                "resolution": "Uncompressed 1080p/60fps",
+                "field_of_view": "103, 90, 80 degrees (Adjustable)",
+                "focus_type": "Autofocus",
+                "features": "Adaptive Light Sensor, HDR-enabled"
+            },
+            "price": "Rp2.799.000"
+        },
+        {
+            "id": "webcam-03",
+            "img_dir": "https://placehold.co/600x400/a16207/ffffff?text=Elgato+Facecam",
+            "title": "Elgato Facecam 1080p60",
+            "type": "Webcam",
+            "brief_explanation": "A webcam designed for content creators, offering uncompressed 1080p 60fps video and full manual control.",
+            "specifications": {
+                "resolution": "Uncompressed 1080p/60fps",
+                "field_of_view": "82 degrees",
+                "focus_type": "Fixed Focus",
+                "features": "Sony STARVIS Sensor, Advanced Image Engine"
+            },
+            "price": "Rp2.450.000"
+        },
+        {
+            "id": "webcam-04",
+            "img_dir": "https://placehold.co/600x400/a16207/ffffff?text=Logitech+BRIO+4K",
+            "title": "Logitech BRIO 4K Pro Webcam",
+            "type": "Webcam",
+            "brief_explanation": "A premium 4K webcam that delivers ultra HD image quality, suitable for professionals and high-quality video conferencing.",
+            "specifications": {
+                "resolution": "4K/30fps or 1080p/60fps",
+                "field_of_view": "90, 78, 65 degrees (Adjustable)",
+                "focus_type": "Autofocus",
+                "features": "HDR, Windows Hello compatible"
+            },
+            "price": "Rp3.100.000"
+        },
+        {
+            "id": "speaker-01",
+            "img_dir": "https://placehold.co/600x400/0c4a6e/ffffff?text=Logitech+G560",
+            "title": "Logitech G560 Lightsync PC Gaming Speakers",
+            "type": "Speaker",
+            "brief_explanation": "A 2.1 speaker system with a powerful subwoofer and RGB lighting that can sync with games and music.",
+            "specifications": {
+                "system": "2.1 with Subwoofer",
+                "connectivity": "USB, 3.5mm, Bluetooth",
+                "power": "240W Peak Power",
+                "features": "Lightsync RGB, DTS:X Ultra Surround Sound"
+            },
+            "price": "Rp3.199.000"
+        },
+        {
+            "id": "speaker-02",
+            "img_dir": "https://placehold.co/600x400/0c4a6e/ffffff?text=Razer+Nommo+Chroma",
+            "title": "Razer Nommo Chroma 2.0",
+            "type": "Speaker",
+            "brief_explanation": "2.0 speakers designed for positional audio in games, with a futuristic design and Chroma RGB lighting.",
+            "specifications": {
+                "system": "2.0",
+                "connectivity": "USB, 3.5mm",
+                "power": "N/A",
+                "features": "Custom 3-inch Glass Fiber Drivers, Razer Chroma RGB"
+            },
+            "price": "Rp2.299.000"
+        },
+        {
+            "id": "speaker-03",
+            "img_dir": "https://placehold.co/600x400/0c4a6e/ffffff?text=Edifier+R1280DBs",
+            "title": "Edifier R1280DBs Bookshelf Speakers",
+            "type": "Speaker",
+            "brief_explanation": "Versatile active bookshelf speakers offering clear sound quality and modern connectivity, including a subwoofer output.",
+            "specifications": {
+                "system": "2.0 Bookshelf",
+                "connectivity": "Bluetooth 5.0, Optical, Coaxial, Dual RCA",
+                "power": "42W RMS",
+                "features": "Remote Control, Subwoofer Output"
+            },
+            "price": "Rp1.700.000"
+        },
+        {
+            "id": "speaker-04",
+            "img_dir": "https://placehold.co/600x400/0c4a6e/ffffff?text=Creative+Pebble+V3",
+            "title": "Creative Pebble V3",
+            "type": "Speaker",
+            "brief_explanation": "Minimalist desktop speakers that deliver clear and powerful audio for their size, with USB-C and Bluetooth connectivity.",
+            "specifications": {
+                "system": "2.0",
+                "connectivity": "USB-C Audio & Power, Bluetooth 5.0",
+                "power": "up to 8W RMS",
+                "features": "45° elevated drivers, Compact design"
+            },
+            "price": "Rp550.000"
+        },
+        {
+            "id": "gamepad-01",
+            "img_dir": "https://placehold.co/600x400/4a044e/ffffff?text=Xbox+Controller",
+            "title": "Xbox Wireless Controller - Carbon Black",
+            "type": "Gamepad",
+            "brief_explanation": "The gold standard for PC gaming, offering ergonomic comfort, a precise hybrid D-pad, and wide compatibility.",
+            "specifications": {
+                "connectivity": "Xbox Wireless, Bluetooth, USB-C",
+                "compatibility": "Xbox Series X|S, Xbox One, Windows, Android, iOS",
+                "features": "Textured Grips, Share Button"
+            },
+            "price": "Rp899.000"
+        },
+        {
+            "id": "gamepad-02",
+            "img_dir": "https://placehold.co/600x400/4a044e/ffffff?text=PS5+DualSense",
+            "title": "PlayStation 5 DualSense Wireless Controller",
+            "type": "Gamepad",
+            "brief_explanation": "A revolutionary gamepad with immersive haptic feedback and adaptive triggers that change the way you feel games.",
+            "specifications": {
+                "connectivity": "Bluetooth, USB-C",
+                "compatibility": "PlayStation 5, PC (limited features)",
+                "features": "Haptic Feedback, Adaptive Triggers, Built-in Microphone"
+            },
+            "price": "Rp1.100.000"
+        }
+    ]
+}

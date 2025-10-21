@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloPC</title>
+    <link href="./assets/data/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script> -->
+</head>
+<body class="h-screen w-full gap-12 bg-black font-sans overflow-auto scroll-smooth bg-[url('.\\assets\\data\\8289995_25336.jpg')]">
+    <!-- Loading Screen -->
+    <div id="loading_screen"></div>
+    
+    <div class="fixed top-0 text-xl text-white/70 font-bold pt-5 pl-5">
+        <button onclick="history.back()" class="cursor-pointer"><- Back</button>
+    </div>
+    
+    <div class="w-full max-h-max flex flex-col items-center pt-32 mt-16">
+        <p class="text-white">You're Buying &nbsp&nbsp&nbsp<span class="text-white text-6xl font-bold" data-title></span></p>
+        <div class="w-full flex flex-col md:flex-row gap-8 px-48">
+            <!-- Card Kiri -->
+            <div class="w-full flex flex-col gap-8 border-2 pt-20">
+                
+                <!-- Personal Data -->
+                <div class="w-full bg-neutral-950/10 border-1 border-green-900/30 flex flex-col gap-6 p-8 py-10 rounded-2xl inset-shadow-sm inset-shadow-green-500/50">
+                    <h2 class="text-2xl font-semibold text-white/80">Personal Data</h2>
+                    
+                    <!-- Input Name -->
+                    <div class="w-full flex flex-col gap-1">
+                        <label for="name" class="text-lg font-light text-white/70">Name</label>
+                        <input 
+                            id="name"
+                            type="text"
+                            name="name"
+                            placeholder="John Doe"
+                            required
+                            class="px-4 py-2 w-full text-white/90 text-md font-normal bg-green-900/5 inset-shadow-sm inset-shadow-green-300/20 rounded-md
+                                   placeholder:text-white/30 placeholder:font-extralight
+                                   focus:outline-1 focus:outline-green-700/50 focus:inset-shadow-none focus:bg-green-900/15"
+                        >
+                    </div>
+                    
+                    <!-- Input Phone Number -->
+                    <div class="w-full flex flex-col gap-1">
+                        <label for="phone_number" class="text-lg font-light text-white/70">Phone Number</label>
+                        <input 
+                            id="phone_number"
+                            type="number"
+                            name="phone_number"
+                            placeholder="08xxxxxxxxxx"
+                            required
+                            class="px-4 py-2 w-full text-white/90 text-md font-normal bg-green-900/5 inset-shadow-sm inset-shadow-green-300/20 rounded-md no-spinner
+                                   placeholder:text-white/30 placeholder:font-extralight
+                                   focus:outline-1 focus:outline-green-700/50 focus:inset-shadow-none focus:bg-green-900/15"
+                        >
+                    </div>
+                    
+                    <!-- Input Email -->
+                    <div class="w-full flex flex-col gap-1">
+                        <label for="email" class="text-lg font-light text-white/70">Email</label>
+                        <input 
+                            id="email"
+                            type="email"
+                            name="email"
+                            placeholder="admin@example.com"
+                            required
+                            class="px-4 py-2 w-full text-white/90 text-md font-normal bg-green-900/5 inset-shadow-sm inset-shadow-green-300/20 rounded-md
+                                   placeholder:text-white/30 placeholder:font-extralight
+                                   focus:outline-1 focus:outline-green-700/50 focus:inset-shadow-none focus:bg-green-900/15"
+                        >
+                    </div>
+                    
+                    <!-- Input City -->
+                    <div class="w-full flex flex-col gap-1">
+                        <label for="city" class="text-lg font-light text-white/70">City</label>
+                        <input 
+                            id="city"
+                            type="text"
+                            name="city"
+                            placeholder="California"
+                            required
+                            class="px-4 py-2 w-full text-white/90 text-md font-normal bg-green-900/5 inset-shadow-sm inset-shadow-green-300/20 rounded-md
+                                   placeholder:text-white/30 placeholder:font-extralight
+                                   focus:outline-1 focus:outline-green-700/50 focus:inset-shadow-none focus:bg-green-900/15"
+                        >
+                    </div>
+                    
+                    <!-- Address -->
+                    <div class="w-full flex flex-col gap-1">
+                        <label for="address" class="text-lg font-light text-white/70">address</label>
+                        <textarea
+                            id="address"
+                            name="address"
+                            placeholder="California"
+                            required
+                            rows="3"
+                            class="px-4 py-2 w-full text-white/90 text-md font-normal bg-green-900/5 inset-shadow-sm inset-shadow-green-300/20 rounded-md
+                                   placeholder:text-white/30 placeholder:font-extralight
+                                   focus:outline-1 focus:outline-green-700/50 focus:inset-shadow-none focus:bg-green-900/15
+                                   field-sizing-fixed"
+                        > </textarea>
+                    </div>
+                </div>
+                
+                <!-- Delivery -->
+                <div class="w-full bg-neutral-950/10 border-1 border-green-900/30 flex flex-col gap-6 p-8 py-10 rounded-2xl inset-shadow-sm inset-shadow-green-500/50">
+                    <h2 class="text-2xl font-semibold text-white/80">Shipment</h2>
+                    
+                    <!-- Shipment Services -->
+                    <div class="w-full flex flex-col ">
+                        <fieldset class="w-full flex gap-8 justify-between flex-wrap md:flex-nowrap">
+                            <legend class="text-lg font-normal text-white/80 mb-2">Shipment Services</legend>
+                            <!-- Opsi 1 -->
+                            <label for="JNE" class="flex w-full justify-center items-center p-4 bg-green-900/5 has-checked:bg-green-900/10 text-sm font-medium leading-6 text-gray-700 dark:text-gray-300 cursor-pointer border-2 border-green-800/20 has-checked:border-green-800/40 rounded-lg group">
+                                <input id="JNE" name="ship_service" type="radio" class="appearance-none">
+                                <div class="text-center font-bold text-lg">
+                                    <img src=".\\assets\\img\\pc1.png" alt="" class="w-full opacity-50 group-[&:has(:checked)]:opacity-90">
+                                    JNE
+                                </div>
+                            </label>
+                            <!-- Opsi 2 -->
+                            <label for="SiCepat" class="flex w-full justify-center items-center p-4 bg-green-900/5 has-checked:bg-green-900/10 text-sm font-medium leading-6 text-gray-700 dark:text-gray-300 cursor-pointer border-2 border-green-800/20 has-checked:border-green-800/40 rounded-lg group">
+                                <input id="SiCepat" name="ship_service" type="radio" class="appearance-none">
+                                <div class="text-center font-bold text-lg">
+                                    <img src=".\\assets\\img\\pc1.png" alt="" class="w-full opacity-50 group-[&:has(:checked)]:opacity-90">
+                                    SiCepat
+                                </div>
+                            </label>
+                            <!-- Opsi 3 -->
+                            <label for="TiKi" class="flex w-full justify-center items-center p-4 bg-green-900/5 has-checked:bg-green-900/10 text-sm font-medium leading-6 text-gray-700 dark:text-gray-300 cursor-pointer border-2 border-green-800/20 has-checked:border-green-800/40 rounded-lg group">
+                                <input id="TiKi" name="ship_service" type="radio" class="appearance-none">
+                                <div class="text-center font-bold text-lg">
+                                    <img src=".\\assets\\img\\pc1.png" alt="" class="w-full opacity-50 group-[&:has(:checked)]:opacity-90">
+                                    TiKi
+                                </div>
+                            </label>
+                        </fieldset>
+                    </div>
+                    
+                    <!-- ETA -->
+                    <div class="w-full flex flex-col ">
+                        <fieldset class="w-full flex flex-col gap-2">
+                            <legend class="text-lg font-normal text-white/80 mb-2">Estimation Time</legend>
+                            <!-- Opsi 1 -->
+                            <label for="SameDay" class="flex w-full items-center p-4 bg-green-950/5 has-checked:bg-green-800/50 text-sm font-medium leading-6 text-gray-700 dark:text-gray-300 cursor-pointer border-2 border-green-800/20 rounded-lg">
+                                <p class="w-full text-lg font-semibold text-white">Same Day</p>
+                                <input id="SameDay" name="ETA" type="radio" class="checked:bg-green-300">
+                            </label>
+                            <!-- Opsi 2 -->
+                            <label for="NextDay" class="flex w-full items-center p-4 bg-green-950/5 has-checked:bg-green-800/50 text-sm font-medium leading-6 text-gray-700 dark:text-gray-300 cursor-pointer border-2 border-green-800/20 rounded-lg">
+                                <p class="w-full text-lg font-semibold text-white">Next Day</p>
+                                <input id="NextDay" name="ETA" type="radio" class="">
+                            </label>
+                            <!-- Opsi 3 -->
+                            <label for="SomeDay" class="flex w-full items-center p-4 bg-green-950/5 has-checked:bg-green-800/50 text-sm font-medium leading-6 text-gray-700 dark:text-gray-300 cursor-pointer border-2 border-green-800/20 rounded-lg">
+                                <p class="w-full text-lg font-semibold text-white">Some Day</p>
+                                <input id="SomeDay" name="ETA" type="radio" class="">
+                            </label>
+                        </fieldset>
+                    </div>
+                </div>
+                
+                <!-- Option -->
+                <div class="w-full bg-neutral-950/10 border-1 border-green-900/30 flex flex-col gap-6 p-8 py-10 rounded-2xl inset-shadow-sm inset-shadow-green-500/50">
+                    <h2 class="text-2xl font-semibold text-white/80">Options</h2>
+                    
+                    <!-- Input Wood Packaging -->
+                    <div class="w-full flex flex-col gap-1">
+                        <label for="wood" class="relative inline-flex items-center cursor-pointer">
+                            <!-- 1. Input asli disembunyikan tapi tetap menjadi "peer" -->
+                            <input 
+                                id="wood"
+                                type="checkbox"
+                                name="wood"
+                                value="wood"
+                                required
+                                class="sr-only peer"
+                            >
+                            <div class="w-6 h-6 bg-gray-300 dark:bg-neutral-900 rounded peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-neutral-100 peer-checked:bg-neutral-700/75 transition-colors"></div>
+                            
+                            <div class="pointer-events-none absolute left-0.5 top-1 text-white/80 opacity-0 peer-checked:opacity-100 transition-opacity">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="4">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                </svg>
+                            </div>
+                            
+                            <span class="ml-3 text-lg font-light text-gray-700 dark:text-neutral-200">
+                                Wood Packaging
+                            </span>
+                        </label>
+                        
+                    </div>
+                    
+                    <!-- Additonal Notes -->
+                    <div class="w-full flex flex-col gap-1">
+                        <label for="notes" class="text-lg font-light text-white/70">Additional Notes</label>
+                        <textarea
+                            id="address"
+                            name="address"
+                            placeholder="California"
+                            required
+                            rows="3"
+                            class="px-4 py-2 w-full text-white/90 text-md font-normal bg-green-900/5 inset-shadow-sm inset-shadow-green-300/20 rounded-md
+                                   placeholder:text-white/30 placeholder:font-extralight
+                                   focus:outline-1 focus:outline-green-700/50 focus:inset-shadow-none focus:bg-green-900/15
+                                   field-sizing-fixed"
+                        > </textarea>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- Card Kanan -->
+            <div class="w-full max-h-full border-2">
+                <div class="sticky top-0 border-2 pt-20">
+                    <div class="w-full bg-neutral-950/10 border-1 border-green-900/30 flex flex-col gap-6 p-8 py-10 rounded-2xl inset-shadow-sm inset-shadow-green-500/50">
+                        <h2 class="text-2xl font-semibold text-white/80">Receipt</h2>
+                        
+                        <!-- Header -->
+                        <div class="w-full text-white/70 flex text-xl font-semibold">
+                            <p class="w-full">Items</p>
+                            <p class="w-full text-right">Price</p>
+                        </div>
+                        
+                        <!-- Shipment Services Fee -->
+                        <div class="w-full text-white/70 flex text-lg">
+                            <p class="w-full">Shipment Services Fee</p>
+                            <p class="w-full text-right slashed-zero tabular-nums" data-shipment-fee></p>
+                        </div>
+                        
+                        <!-- Shipment Services Fee -->
+                        <div class="w-full text-white/70 flex text-lg">
+                            <p class="w-full">Deliveries Fee</p>
+                            <p class="w-full text-right slashed-zero tabular-nums" data-delivery-fee></p>
+                        </div>
+                        
+                        <!-- Shipment Services Fee -->
+                        <div class="w-full text-white/70 flex text-lg">
+                            <p class="w-full">Wood Packaging Fee</p>
+                            <p class="w-full text-right slashed-zero tabular-nums" data-wood-fee></p>
+                        </div>
+                        
+                        <!-- Shipment Services Fee -->
+                        <div class="w-full text-white/70 flex text-lg">
+                            <p class="w-full" data-title></p>
+                            <p class="w-full text-right slashed-zero tabular-nums" data-price></p>
+                        </div>
+                        
+                        <!-- Shipment Services Fee -->
+                        <div class="w-full text-white/70 flex text-lg">
+                            <p class="w-full">Total Cost</p>
+                            <p class="w-full text-right slashed-zero tabular-nums" Total></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/apps.js"></script>
+</body>
+</html>

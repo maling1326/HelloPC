@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloPC</title>
+    <link href="./assets/data/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="h-screen w-full gap-12 bg-black font-sans overflow-auto">
+    <!-- Loading Screen -->
+    <div id="loading_screen"></div>
+    
+    <!-- Header -->
+    <header></header>
+    
+    <!-- Thumbnail -->
+    <div class="flex w-full justify-center px-7 mt-20 sm:px-10 md:px-16 lg:px-24 md:my-24 lg:my-28">
+        <img src="https://i.ytimg.com/vi/gUwJBRUIWow/maxresdefault.jpg" alt="" class="object-center object-cover w-full rounded-2xl shadow-xl shadow-white/10 opacity-90 aspect-[16/3]">
+    </div>
+    
+    <!-- Category Select -->
+    <div class="my-16 min-w-7">
+        <h2 class="mb-8 text-4xl text-center text-white font-bold font-sans min-w-sm">Browse Category</h2>
+        <div class="flex justify-center-safe gap-4 sm:gap-12 flex-wrap px-6 sm:px-12 md:px-24 lg:px-0">
+        <!-- <div class="grid grid-cols-2 items-center grid-flow-row lg:bg-green-500 md:bg-white sm:bg-gray-500 bg-gray-800 px-24 gap-8"> -->
+            <!-- Prebuilt PC dan Internal Parts -->
+            <div class="flex justify-center-safe gap-4 sm:gap-12">
+                <!-- Prebuilt PC -->
+                <div onclick="load_pc()" class="cursor-pointer bg-black/20 w-40 sm:w-50 md:w-50 md:h-50 lg:w-50 sm:h-50 h-40 lg:h-50 flex flex-col justify-center rounded-2xl border border-neutral-700/50 shadow-black shadow-2xl hover:scale-105 hover:bg-gray-700/20 transition-all duration-200 ease-in-out">
+                    <div class="w-full h-full p-12 -mb-12 -mt-12 text-green-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.834 238.834" fill="currentColor">
+                           <path d="M119.417,143.501c3.859,0,7,3.141,7,7c0,3.859-3.141,7-7,7s-7-3.141-7-7C112.417,146.642,115.558,143.501,119.417,143.501z M143.251,238.834v-3.167H95.583v3.167H74.251v-3.167H62.083c-1.381,0-2.5-1.119-2.5-2.5V5.833c0-1.381,1.119-2.5,2.5-2.5h11.613 L76.417,0h86l2.721,3.333h11.613c1.381,0,2.5,1.119,2.5,2.5v227.334c0,1.381-1.119,2.5-2.5,2.5h-12.168v3.167H143.251z M78.084,47.5 h82.666v-23H78.084V47.5z M78.084,77.5h82.666v-23H78.084V77.5z M78.084,107.5h82.666v-23H78.084V107.5z M119.417,137.501 c-7.168,0-13,5.832-13,13c0,7.168,5.832,13,13,13s13-5.832,13-13C132.417,143.333,126.585,137.501,119.417,137.501z M160.75,212.833 v-58.974C151.484,166.662,136.429,175,119.417,175s-32.067-8.338-41.333-21.141v58.974H160.75z"/>
+                        </svg>
+                    </div>
+                    <p class="text-gray-100 text-center mt-4 text-lg lg:text-2xl font-bold">Prebuilt PC</p>
+                </div>
+                
+                <!-- Internal -->
+                <div onclick="load_internal_comp()" class="cursor-pointer bg-black/20 w-40 sm:w-50 md:w-50 md:h-50 lg:w-50 sm:h-50 h-40 lg:h-50 flex flex-col justify-center items-center rounded-2xl border border-neutral-700/50 shadow-black shadow-2xl hover:scale-105 hover:bg-gray-700/20 transition-all duration-200 ease-in-out">
+                    <div class="w-full h-full p-12 -mb-8 -mt-12 text-green-300">
+                        <svg viewBox="0 0 15 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.67129 3.14634C4.47603 3.34161 4.47603 3.65819 4.67129 3.85345L7.14616 6.32833C7.34142 6.52359 7.65801 6.52359 7.85327 6.32833L10.3281 3.85345C10.5234 3.65819 10.5234 3.34161 10.3281 3.14634L7.85327 0.671471C7.65801 0.476209 7.34142 0.476209 7.14616 0.671471L4.67129 3.14634ZM7.49971 5.26766L5.73195 3.4999L7.49971 1.73213L9.26748 3.4999L7.49971 5.26766ZM8.67129 7.14634C8.47603 7.34161 8.47603 7.65819 8.67129 7.85345L11.1462 10.3283C11.3414 10.5236 11.658 10.5236 11.8533 10.3283L14.3281 7.85345C14.5234 7.65819 14.5234 7.34161 14.3281 7.14634L11.8533 4.67147C11.658 4.47621 11.3414 4.47621 11.1462 4.67147L8.67129 7.14634ZM11.4997 9.26766L9.73195 7.4999L11.4997 5.73213L13.2675 7.4999L11.4997 9.26766ZM4.67129 11.8535C4.47603 11.6582 4.47603 11.3416 4.67129 11.1463L7.14616 8.67147C7.34142 8.47621 7.65801 8.47621 7.85327 8.67147L10.3281 11.1463C10.5234 11.3416 10.5234 11.6582 10.3281 11.8535L7.85327 14.3283C7.65801 14.5236 7.34142 14.5236 7.14616 14.3283L4.67129 11.8535ZM5.73195 11.4999L7.49971 13.2677L9.26748 11.4999L7.49971 9.73213L5.73195 11.4999ZM0.671288 7.14649C0.476026 7.34175 0.476026 7.65834 0.671288 7.8536L3.14616 10.3285C3.34142 10.5237 3.65801 10.5237 3.85327 10.3285L6.32814 7.8536C6.5234 7.65834 6.5234 7.34175 6.32814 7.14649L3.85327 4.67162C3.65801 4.47636 3.34142 4.47636 3.14616 4.67162L0.671288 7.14649ZM3.49972 9.26781L1.73195 7.50005L3.49972 5.73228L5.26748 7.50005L3.49972 9.26781Z"/>
+                        </svg>
+                    </div>
+                    <p class="text-gray-100 text-center  text-lg lg:text-2xl font-bold">Internal Parts</p>
+                </div>
+            </div>
+            
+            <!--- Monitor dan Peripherals -->
+            <div class="flex justify-center-safe gap-4 sm:gap-12">
+                <!-- Monitor -->
+                <div onclick="load_monitor()" class="cursor-pointer bg-black/20 w-40 sm:w-50 md:w-50 md:h-50 lg:w-50 sm:h-50 h-40 lg:h-50 flex flex-col justify-center rounded-2xl border border-neutral-700/50 shadow-black shadow-2xl hover:scale-105 hover:bg-gray-700/20 transition-all duration-200 ease-in-out">
+                    <div class="w-full h-full p-12 -mb-12 -mt-12 text-green-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10">
+                            <rect x="3" y="7" width="26" height="16"/>
+                            <line x1="16" y1="23" x2="16" y2="27"/>
+                            <line x1="10" y1="27" x2="22" y2="27"/>
+                        </svg>
+                    </div>
+                    <p class="text-gray-100 text-center mt-4 text-lg lg:text-2xl font-bold">Monitor</p>
+                </div>
+                
+                <!-- Peripherals -->
+                <a href="#ParentContainer">
+                <div onclick="load_peripherals()" class="cursor-pointer bg-black/20 w-40 sm:w-50 md:w-50 md:h-50 lg:w-50 sm:h-50 h-40 lg:h-50 flex flex-col justify-center rounded-2xl border border-neutral-700/50 shadow-black shadow-2xl hover:scale-105 hover:bg-gray-700/20 transition-all duration-200 ease-in-out">
+                    <div class="w-full h-full p-14 -mb-12 -mt-14 text-green-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor">
+                           <path d="M59.188 32H33.001c0-15.518-6.611-15.518-13.003-15.518c-6.147 0-11.958 0-11.958-14.482H7c0 15.518 6.611 15.518 12.998 15.518c6.152 0 11.963 0 11.963 14.482H4.813C3.26 32 2 33.348 2 34.998v24.004C2 60.662 3.26 62 4.813 62h54.375C60.74 62 62 60.662 62 59.002V34.998C62 33.348 60.74 32 59.188 32m-4.112 2.002h1.846c1.436 0 1.436 2.002 0 2.002h-1.846c-1.435 0-1.435-2.002 0-2.002m-5.996 0h1.846c1.436 0 1.436 2.002 0 2.002H49.08c-1.435 0-1.435-2.002 0-2.002M52 44.998V47c0 .557-.449 1.006-.996 1.006h-2.002A1.004 1.004 0 0 1 47.996 47v-2.002c0-.547.449-.996 1.006-.996h2.002a1 1 0 0 1 .996.996m-5.996-5.996c0-.557.449-.996.996-.996h2.002c.547 0 .996.439.996.996v2.002a1 1 0 0 1-.996.996H47a1 1 0 0 1-.996-.996v-2.002m-2.93-5h1.846c1.436 0 1.436 2.002 0 2.002h-1.846c-1.435 0-1.435-2.002 0-2.002m2.93 10.996V47c0 .557-.449 1.006-1.006 1.006h-2.002c-.547 0-.996-.449-.996-1.006v-2.002a1 1 0 0 1 .996-.996h2.002c.557 0 1.006.449 1.006.996m-5.005-6.992h1.997a.996.996 0 0 1 1.006.996v2.002c0 .547-.449.996-1.006.996h-1.997a1.001 1.001 0 0 1-1.001-.996v-2.002a.995.995 0 0 1 1.001-.996m-2.998 12.998c0-.557.449-1.006 1.001-1.006h1.997c.552 0 1.001.449 1.001 1.006v2.002c0 .547-.449.996-1.001.996h-1.997a1.001 1.001 0 0 1-1.001-.996v-2.002M37 48.006A1.003 1.003 0 0 1 35.999 47v-2.002c0-.547.449-.996 1.001-.996h2.002a1 1 0 0 1 .996.996V47c0 .557-.449 1.006-.996 1.006H37m.078-14.004h1.846c1.436 0 1.436 2.002 0 2.002h-1.846c-1.435 0-1.435-2.002 0-2.002m-3.076 5c0-.557.449-.996.996-.996H37a.995.995 0 0 1 1.001.996v2.002c0 .547-.449.996-1.001.996h-2.002a1 1 0 0 1-.996-.996v-2.002m1.997 12.002v2.002c0 .547-.449.996-1.001.996h-1.997A1.001 1.001 0 0 1 32 53.006v-2.002c0-.557.449-1.006 1.001-1.006h1.997c.552 0 1.001.449 1.001 1.006M34.002 47c0 .557-.449 1.006-1.001 1.006h-2.002A1.003 1.003 0 0 1 29.998 47v-2.002c0-.547.449-.996 1.001-.996h2.002c.552 0 1.001.449 1.001.996V47m-2.925-12.998h1.846c1.436 0 1.436 2.002 0 2.002h-1.846c-1.435 0-1.435-2.002 0-2.002m-3.076 5a.995.995 0 0 1 1.001-.996h1.997a.995.995 0 0 1 1.001.996v2.002c0 .547-.449.996-1.001.996h-1.997a1.001 1.001 0 0 1-1.001-.996v-2.002m1.997 12.002v2.002a1 1 0 0 1-.996.996H27a1.001 1.001 0 0 1-1.001-.996v-2.002c0-.557.449-1.006 1.001-1.006h2.002c.547 0 .996.449.996 1.006M28.001 47c0 .557-.449 1.006-1.001 1.006h-2.002c-.547 0-.996-.449-.996-1.006v-2.002a1 1 0 0 1 .996-.996H27c.552 0 1.001.449 1.001.996V47m-2.925-12.998h1.846c1.436 0 1.436 2.002 0 2.002h-1.846c-1.435 0-1.435-2.002 0-2.002m-3.076 5a.995.995 0 0 1 1.001-.996h1.997a.995.995 0 0 1 1.001.996v2.002c0 .547-.449.996-1.001.996h-1.997A1.001 1.001 0 0 1 22 41.004v-2.002m-2.925-5h1.851c1.431 0 1.431 2.002 0 2.002h-1.851c-1.435 0-1.435-2.002 0-2.002M22 44.998V47c0 .557-.449 1.006-1.001 1.006h-1.997A1.003 1.003 0 0 1 18.001 47v-2.002c0-.547.449-.996 1.001-.996h1.997c.552 0 1.001.449 1.001.996m-5-6.992h2.002a.99.99 0 0 1 .996.996v2.002a.997.997 0 0 1-.996.996H17a1.001 1.001 0 0 1-1.001-.996v-2.002A.995.995 0 0 1 17 38.006m-3.926-4.004h1.851c1.436 0 1.436 2.002 0 2.002h-1.851c-1.43 0-1.43-2.002 0-2.002m2.925 10.996V47c0 .557-.449 1.006-1.001 1.006h-1.997A1.003 1.003 0 0 1 12 47v-2.002c0-.547.449-.996 1.001-.996h1.997c.552 0 1.001.449 1.001.996m-5-6.992h2.002a.995.995 0 0 1 1.001.996v2.002c0 .547-.449.996-1.001.996h-2.002a1.001 1.001 0 0 1-1.001-.996v-2.002a.995.995 0 0 1 1.001-.996m-3.921-4.004h1.846c1.436 0 1.436 2.002 0 2.002H7.078c-1.435 0-1.435-2.002 0-2.002m-3.076 5a.99.99 0 0 1 .996-.996H7a.995.995 0 0 1 1.001.996v2.002c0 .547-.449.996-1.001.996H4.998a.997.997 0 0 1-.996-.996v-2.002m0 5.996c0-.547.41-.996.923-.996h4.15c.513 0 .923.449.923.996V47c0 .557-.41 1.006-.923 1.006h-4.15c-.513 0-.923-.449-.923-1.006v-2.002m5.996 14.004c0 .547-.41.996-.923.996h-4.15c-.513 0-.923-.449-.923-.996V57c0-.547.41-.996.923-.996h4.15c.513 0 .923.449.923.996v2.002m1.113-5h-6.22c-.493 0-.889-.449-.889-.996v-2.002c0-.557.396-1.006.889-1.006h6.221c.488 0 .889.449.889 1.006v2.002c-.001.547-.401.996-.89.996m4.888 5c0 .547-.449.996-1.001.996h-1.997A1.001 1.001 0 0 1 12 59.002V57a.995.995 0 0 1 1.001-.996h1.997a.995.995 0 0 1 1.001.996v2.002m1.001-5h-2.002a1 1 0 0 1-.996-.996v-2.002c0-.557.449-1.006.996-1.006H17c.552 0 1.001.449 1.001 1.006v2.002c0 .547-.449.996-1.001.996m5 5c0 .547-.449.996-1.001.996h-1.997a1.001 1.001 0 0 1-1.001-.996V57a.995.995 0 0 1 1.001-.996h1.997A.995.995 0 0 1 22 57v2.002m1.001-5h-2.002a1.001 1.001 0 0 1-1.001-.996v-2.002c0-.557.449-1.006 1.001-1.006h2.002c.552 0 1.001.449 1.001 1.006v2.002c0 .547-.449.996-1.001.996m21.001 5c0 .547-.371.996-.84.996h-18.33c-.459 0-.83-.449-.83-.996V57c0-.547.371-.996.83-.996h18.33c.469 0 .84.449.84.996v2.002m0-5.996v-2.002c0-.557.449-1.006.996-1.006H47c.547 0 .996.449.996 1.006v2.002a1 1 0 0 1-.996.996h-2.002a1 1 0 0 1-.996-.996m5.996 5.996a1 1 0 0 1-.996.996H47a1 1 0 0 1-.996-.996V57c0-.557.449-.996.996-.996h2.002c.547 0 .996.439.996.996v2.002m10 0c0 .547-.4.996-.889.996h-6.221c-.488 0-.888-.449-.888-.996V57c0-.557.4-.996.889-.996h6.221c.488 0 .889.439.889.996v2.002zm0-5.996c0 .547-.361.996-.82.996h-8.359c-.449 0-.82-.449-.82-.996v-2.002c0-.557.371-1.006.82-1.006h8.359c.459 0 .82.449.82 1.006v2.002m0-6.006c0 .557-.41 1.006-.918 1.006h-4.16c-.508 0-.918-.449-.918-1.006v-2.002c0-.547.41-.996.918-.996h4.16c.508 0 .918.449.918.996V47m0-5.996c0 .547-.4.996-.889.996h-6.221c-.488 0-.888-.449-.888-.996v-2.002c0-.557.4-.996.889-.996h6.221c.488 0 .889.439.889.996v2.002z"/>
+                        </svg>
+                    </div>
+                    <p class="text-gray-100 text-center mt-4 text-lg lg:text-2xl font-bold">Peripherals</p>
+                </div></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- TEMPLATE CONTAINER -->
+    <div class="my-36 min-w-sm" id="ParentContainer">
+        <h2 id="category_selected" onclick="cls()" class="text-4xl text-center text-white font-bold font-sans">Prebuilt PC</h2>
+        <div id="cardContainer" class="sm:px-10 md:px-14 lg:px-24 flex justify-center gap-4 md:gap-8 lg:gap-16 gap-y-10 md:gap-y-20 mt-8 md:mt-14 flex-wrap">
+            <!-- template container -->
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer></footer>
+    
+  <template id="pc_cards">
+        <div class="flex flex-col items-center p-3 md:px-5 md:py-6 gap-1 md:gap-4 w-40 md:w-80 h-max bg-black/20 rounded-2xl self-stretch border-1 border-gray-700/90 shadow-middle sm:scale-90 lg:scale-100 pc">
+            <!-- Image -->
+            <img src=".\\assets\\img\\pc1.png" alt="" class="w-full rounded-lg md:shadow-lg md:shadow-white/15 hover:rounded-none hover:shadow-lg hover:shadow-green-400/10 hover:scale-105 hover:-translate-y-4 transition-all duration-200 ease-in-out aspect-square object-cover" data-image>
+            
+            <!-- Title -->
+            <div class="w-full md:min-h-16 py-1 md:pb-4 flex items-center border-b-2 border-gray-600">
+                <h2 class="w-full text-neutral-100 text-md md:text-xl font-bold line-clamp-1" data-title>EK Gaming BattleForteer 506 - Powered By ASUS</h2>
+            </div>
+            
+            <!-- Components -->
+            <div class="w-full flex-col gap-3 px-2 py-4 md:flex hidden">
+                <!-- CPU -->
+                <div class="w-full flex gap-3">
+                    <div class="flex items-center justify-center">
+                        <div class="w-5 h-5 text-white flex justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#d4d4d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
+                                <rect x="4" y="4" width="16" height="16" rx="2" ry="2" /> <rect x="9" y="9" width="6" height="6" /> <line x1="9" y1="1" x2="9" y2="4" /> <line x1="15" y1="1" x2="15" y2="4" /> <line x1="9" y1="20" x2="9" y2="23" /> <line x1="15" y1="20" x2="15" y2="23" /> <line x1="20" y1="9" x2="23" y2="9" /> <line x1="20" y1="14" x2="23" y2="14" /> <line x1="1" y1="9" x2="4" y2="9" /> <line x1="1" y1="14" x2="4" y2="14" />
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="truncate text-neutral-300" data-cpu>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nobis quisquam deserunt provident atque voluptatum libero vel enim impedit explicabo nulla eligendi aspernatur fugit magni temporibus, odit asperiores molestias quod!</p>
+                </div>
+                <!-- MOBO -->
+                <div class="w-full flex gap-3">
+                    <div class="flex items-center">
+                        <div class="w-5 h-5 text-white">
+                            <!-- Masukkan kode SVG yang sudah dioptimalkan di sini -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+                              <g><g><g><path d="M59.733,221.867h153.6c4.71,0,8.533-3.823,8.533-8.533c0-4.71-3.823-8.533-8.533-8.533h-153.6 c-4.71,0-8.533,3.823-8.533,8.533C51.2,218.044,55.023,221.867,59.733,221.867z"/><path d="M452.523,68.267c4.71,0,8.533-3.823,8.533-8.533s-3.823-8.533-8.533-8.533h-0.094c-4.702,0-8.482,3.823-8.482,8.533 S447.812,68.267,452.523,68.267z"/><path d="M68.523,59.733c0-4.71-3.814-8.533-8.533-8.533h-0.085c-4.71,0-8.491,3.823-8.491,8.533s3.857,8.533,8.576,8.533 S68.523,64.444,68.523,59.733z"/><path d="M204.8,170.667c9.412,0,17.067-7.654,17.067-17.067v-34.133c0-9.412-7.654-17.067-17.067-17.067h-34.133 c-9.412,0-17.067,7.654-17.067,17.067V153.6c0,9.412,7.654,17.067,17.067,17.067H204.8z M170.667,119.467H204.8l0.009,34.133 h-34.142V119.467z"/><path d="M469.333,0H42.667C20.736,0,0,20.736,0,42.667V435.2c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533V42.667 c0-12.442,13.158-25.6,25.6-25.6h426.667c12.442,0,25.6,13.158,25.6,25.6v426.667c0,12.442-13.158,25.6-25.6,25.6H42.667 c-12.442,0-25.6-13.158-25.6-25.6c0-4.71-3.823-8.533-8.533-8.533S0,464.623,0,469.333C0,491.264,20.736,512,42.667,512h426.667 C491.264,512,512,491.264,512,469.333V42.667C512,20.736,491.264,0,469.333,0z"/><path d="M51.2,153.6c0,9.412,7.654,17.067,17.067,17.067H102.4c9.412,0,17.067-7.654,17.067-17.067v-34.133 c0-9.412-7.654-17.067-17.067-17.067H68.267c-9.412,0-17.067,7.654-17.067,17.067V153.6z M68.267,119.467H102.4l0.009,34.133 H68.267V119.467z"/><path d="M110.933,307.2c4.71,0,8.533-3.823,8.533-8.533s-3.823-8.533-8.533-8.533H102.4v-25.6c0-4.71-3.823-8.533-8.533-8.533 c-4.71,0-8.533,3.823-8.533,8.533v153.6c0,4.71,3.823,8.533,8.533,8.533c4.71,0,8.533-3.823,8.533-8.533V409.6h8.533 c4.71,0,8.533-3.823,8.533-8.533s-3.823-8.533-8.533-8.533H102.4v-17.067h8.533c4.71,0,8.533-3.823,8.533-8.533 s-3.823-8.533-8.533-8.533H102.4v-17.067h8.533c4.71,0,8.533-3.823,8.533-8.533c0-4.71-3.823-8.533-8.533-8.533H102.4V307.2 H110.933z"/><path d="M452.523,460.8c4.71,0,8.533-3.823,8.533-8.533c0-4.71-3.823-8.533-8.533-8.533h-0.094c-4.702,0-8.482,3.823-8.482,8.533 C443.947,456.977,447.812,460.8,452.523,460.8z"/><path d="M298.667,85.333c-4.719,0-8.533,3.823-8.533,8.533v8.533c-9.412,0-17.067,7.654-17.067,17.067V128h-8.533 c-4.71,0-8.533,3.823-8.533,8.533s3.823,8.533,8.533,8.533h8.533v8.533c0,9.412,7.654,17.067,17.067,17.067v8.533 c0,4.71,3.814,8.533,8.533,8.533s8.533-3.823,8.533-8.533v-8.533h17.067v8.533c0,4.71,3.814,8.533,8.533,8.533 c4.719,0,8.533-3.823,8.533-8.533v-8.533H358.4v8.533c0,4.71,3.814,8.533,8.533,8.533s8.533-3.823,8.533-8.533v-8.533h17.067 v8.533c0,4.71,3.814,8.533,8.533,8.533c4.719,0,8.533-3.823,8.533-8.533v-8.533c9.412,0,17.067-7.654,17.067-17.067v-8.533h8.533 c4.719,0,8.533-3.823,8.533-8.533S439.919,128,435.2,128h-8.533v-8.533c0-9.412-7.654-17.067-17.067-17.067v-8.533 c0-4.71-3.814-8.533-8.533-8.533c-4.719,0-8.533,3.823-8.533,8.533v8.533h-17.067v-8.533c0-4.71-3.814-8.533-8.533-8.533 s-8.533,3.823-8.533,8.533v8.533h-17.067v-8.533c0-4.71-3.814-8.533-8.533-8.533c-4.719,0-8.533,3.823-8.533,8.533v8.533H307.2 v-8.533C307.2,89.156,303.386,85.333,298.667,85.333z M409.6,119.467v17.05v0.017v0.017l0.008,17.05H290.133v-34.133H409.6z"/><path d="M59.904,443.733c-4.71,0-8.491,3.823-8.491,8.533c0,4.71,3.857,8.533,8.576,8.533s8.533-3.823,8.533-8.533 c0-4.71-3.814-8.533-8.533-8.533H59.904z"/><path d="M244.992,349.5c3.593,1.109,7.484-0.307,9.574-3.43c0.145-0.222,14.874-21.803,44.1-21.803 c17.502,0,26.615,7.842,31.019,13.662c-9.31,6.255-22.485,19.72-22.485,46.071c0,16.964,5.538,30.191,11.819,39.723 c-27.264-7.347-49.621-27.904-58.769-55.68c-1.468-4.48-6.306-6.912-10.769-5.436c-4.48,1.468-6.912,6.298-5.436,10.769 c13.858,42.086,52.958,70.357,97.289,70.357c3.755,0,7.074-2.466,8.166-6.059c1.092-3.601-0.307-7.484-3.43-9.574 c-0.222-0.145-21.803-14.874-21.803-44.1c0-17.502,7.842-26.624,13.662-31.01c6.246,9.301,19.72,22.477,46.071,22.477 c16.964,0,30.191-5.538,39.723-11.819c-7.339,27.264-27.895,49.613-55.68,58.761c-4.48,1.468-6.912,6.298-5.444,10.769 c1.186,3.593,4.523,5.871,8.107,5.871c0.888,0,1.784-0.137,2.671-0.435c42.078-13.85,70.357-52.941,70.357-97.28 c0-3.755-2.458-7.083-6.059-8.166c-3.593-1.101-7.492,0.307-9.574,3.43c-0.145,0.222-14.874,21.803-44.1,21.803 c-17.502,0-26.615-7.842-31.019-13.662c9.31-6.246,22.485-19.721,22.485-46.071c0-16.964-5.538-30.191-11.819-39.723 c27.264,7.347,49.621,27.904,58.761,55.68c1.468,4.48,6.306,6.912,10.778,5.436c4.471-1.468,6.904-6.289,5.436-10.769 c-13.858-42.078-52.958-70.357-97.289-70.357c-3.755,0-7.074,2.466-8.166,6.059c-1.092,3.601,0.307,7.484,3.43,9.574 c0.222,0.145,21.803,14.874,21.803,44.1c0,17.502-7.842,26.624-13.662,31.01c-6.246-9.301-19.721-22.477-46.071-22.477 c-16.964,0-30.191,5.538-39.723,11.819c7.339-27.264,27.904-49.613,55.68-58.76c4.48-1.476,6.921-6.298,5.444-10.778 c-1.476-4.471-6.323-6.912-10.778-5.436c-42.086,13.858-70.357,52.949-70.357,97.289 C238.933,345.088,241.399,348.416,244.992,349.5z"/><path d="M136.533,264.533v153.6c0,4.71,3.823,8.533,8.533,8.533c4.71,0,8.533-3.823,8.533-8.533v-153.6 c0-4.71-3.823-8.533-8.533-8.533C140.356,256,136.533,259.823,136.533,264.533z"/><path d="M170.667,264.533v153.6c0,4.71,3.823,8.533,8.533,8.533s8.533-3.823,8.533-8.533v-153.6c0-4.71-3.823-8.533-8.533-8.533 S170.667,259.823,170.667,264.533z"/></g></g></g>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <p class="truncate text-neutral-300" data-mobo>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nobis quisquam deserunt provident atque voluptatum libero vel enim impedit explicabo nulla eligendi aspernatur fugit magni temporibus, odit asperiores molestias quod!</p>
+                </div>
+                <!-- GPU -->
+                <div class="w-full flex gap-3">
+                    <div class="flex justify-center pt-1 items-center w-5 h-5 text-white">
+                        <div class="w-5 h-5 text-neutral-300">
+                            <!-- Masukkan kode SVG KEDUA yang sudah dioptimalkan di sini -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+                                <g><g><path d="M512,133.224V91.429h-83.592v135.837h-26.122V128H0v256h57.469v31.347h141.061V384h20.898v31.347h88.816V384h86.204h7.837 h26.122v36.571h41.796v-73.143h31.347v-78.367h-31.347v-26.122h31.347v-78.367h-31.347v-31.347H512z M182.857,399.673H73.143V384 h109.714V399.673z M292.571,399.673h-57.469V384h57.469V399.673z M386.612,368.327H15.673V143.673h370.939V368.327z M428.408,368.327h-26.122V242.939h26.122V368.327z M485.878,284.735v47.02h-15.673v-47.02H485.878z M485.878,180.245v47.02 h-15.673v-47.02H485.878z M454.531,117.551v287.347h-10.449V107.102h52.245v10.449H454.531z"/></g></g><g><g><path d="M216.816,222.041v-15.673h-19.381c-2.713-9.552-10.25-17.09-19.803-19.803v-19.381h-15.674v18.286h-12.191v-18.286 h-15.673v18.286h-12.191v-18.286h-15.674v18.286h-12.19v-18.286H78.367v19.381c-9.552,2.713-17.09,10.25-19.803,19.803H39.184 v15.673h18.286v12.191H39.184v15.673h18.286v12.191H39.184v15.673h18.286v12.19H39.184v15.673h19.381 c2.713,9.552,10.25,17.09,19.803,19.803v19.381h15.673v-18.286h12.19v18.286h15.673v-18.286h12.191v18.286h15.673v-18.286h12.191 v18.286h15.674v-19.381c9.552-2.713,17.09-10.25,19.803-19.803h19.381v-15.673h-18.286v-12.191h18.286v-15.673h-18.286v-12.191 h18.286v-15.674h-18.286v-12.19H216.816z M182.857,297.796c0,7.203-5.859,13.061-13.061,13.061H86.204 c-7.203,0-13.061-5.859-13.061-13.061v-83.592c0-7.203,5.859-13.061,13.061-13.061h83.592c7.203,0,13.061,5.859,13.061,13.061 V297.796z"/></g></g><g><g><path d="M243.984,185.469v43.886h101.355v-43.886H243.984z M329.665,213.682h-70.008v-12.539h70.008V213.682z"/></g></g><g><g><path d="M243.984,248.163v43.886h101.355v-43.886H243.984z M329.665,276.375h-70.008v-12.539h70.008V276.375z"/></g></g><g><g><circle cx="159.347" cy="224.653" r="10.449"/></g></g>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="truncate text-neutral-300" data-gpu>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nobis quisquam deserunt provident atque voluptatum libero vel enim impedit explicabo nulla eligendi aspernatur fugit magni temporibus, odit asperiores molestias quod!</p>
+                </div>
+                <!-- SSD -->
+                <div class="w-full flex gap-3">
+                    <div class="flex items-center">
+                        <div class="w-5 h-5 text-neutral-300">
+                            <!-- Masukkan kode SVG KEEMPAT yang sudah dioptimalkan di sini -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" fill="currentColor">
+                               <path d="M17.5,16.7a2,2,0,1,1,2-2A2,2,0,0,1,17.5,16.7Zm0-2h0Z"/>
+                               <path d="M28.559,34.75H6.441A4.2,4.2,0,0,1,2.25,30.559V4.442A4.2,4.2,0,0,1,6.441.25H28.559A4.2,4.2,0,0,1,32.75,4.442V30.559A4.2,4.2,0,0,1,28.559,34.75ZM6.441,2.75A1.694,1.694,0,0,0,4.75,4.442V30.559A1.693,1.693,0,0,0,6.441,32.25H28.559a1.693,1.693,0,0,0,1.691-1.691V4.442A1.694,1.694,0,0,0,28.559,2.75Z"/>
+                               <path d="M17.46,23.445a8.75,8.75,0,1,1,8.75-8.75A8.759,8.759,0,0,1,17.46,23.445Zm0-15a6.25,6.25,0,1,0,6.25,6.25A6.257,6.257,0,0,0,17.46,8.445Z"/>
+                               <path d="M8.2,7.45a1.251,1.251,0,0,0,0-2.5,1.251,1.251,0,0,0,0,2.5Z"/>
+                               <path d="M26.8,7.45a1.251,1.251,0,0,0,0-2.5,1.251,1.251,0,0,0,0,2.5Z"/>
+                               <path d="M8.2,29.67a1.251,1.251,0,0,0,0-2.5,1.251,1.251,0,0,0,0,2.5Z"/>
+                               <path d="M26.8,29.67a1.251,1.251,0,0,0,0-2.5,1.251,1.251,0,0,0,0,2.5Z"/>
+                               <path d="M10.46,24.31a1.251,1.251,0,0,1-.89-2.128l4.5-4.56a1.25,1.25,0,0,1,1.78,1.756l-4.5,4.56A1.246,1.246,0,0,1,10.46,24.31Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="truncate text-neutral-300" data-ssd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nobis quisquam deserunt provident atque voluptatum libero vel enim impedit explicabo nulla eligendi aspernatur fugit magni temporibus, odit asperiores molestias quod!</p>
+                </div>
+                <!-- RAM -->
+                <div class="w-full flex gap-3">
+                    <div class="flex items-center">
+                        <div class="w-5 h-5 text-neutral-300">
+                            <!-- Masukkan kode SVG KETIGA yang sudah dioptimalkan di sini -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+                               <path d="M250.712,86.59c-4.466,0-8.084,3.62-8.084,8.084v11.452h-9.701c-4.466,0-8.084,3.62-8.084,8.084v38.804 c0,4.465,3.619,8.084,8.084,8.084h9.701v9.701c0,4.465,3.618,8.084,8.084,8.084c4.466,0,8.084-3.62,8.084-8.084v-9.701h10.779 v9.701c0,4.465,3.618,8.084,8.084,8.084c4.466,0,8.084-3.62,8.084-8.084v-9.701h10.779v9.701c0,4.465,3.618,8.084,8.084,8.084 c4.466,0,8.084-3.62,8.084-8.084v-9.701h9.701c4.466,0,8.084-3.62,8.084-8.084V114.21c0-4.465-3.619-8.084-8.084-8.084h-9.701 V94.675c0-4.465-3.618-8.084-8.084-8.084c-4.466,0-8.084,3.62-8.084,8.084v11.452h-10.779V94.675 c0-4.465-3.618-8.084-8.084-8.084c-4.466,0-8.084,3.62-8.084,8.084v11.452h-10.779V94.675 C258.796,90.21,255.177,86.59,250.712,86.59z M314.308,122.296v22.636h-73.297v-22.636H314.308z"/>
+                               <path d="M224.842,276.277c0,4.465,3.619,8.084,8.084,8.084h9.701v9.701c0,4.465,3.618,8.084,8.084,8.084 c4.466,0,8.084-3.62,8.084-8.084v-9.701h10.779v9.701c0,4.465,3.618,8.084,8.084,8.084c4.466,0,8.084-3.62,8.084-8.084v-9.701 h10.779v9.701c0,4.465,3.618,8.084,8.084,8.084c4.466,0,8.084-3.62,8.084-8.084v-9.701h9.701c4.466,0,8.084-3.62,8.084-8.084 v-38.804c0-4.465-3.619-8.084-8.084-8.084h-9.701v-11.452c0-4.465-3.618-8.084-8.084-8.084c-4.466,0-8.084,3.62-8.084,8.084 v11.452h-10.779v-11.452c0-4.465-3.618-8.084-8.084-8.084c-4.466,0-8.084,3.62-8.084,8.084v11.452h-10.779v-11.452 c0-4.465-3.619-8.084-8.084-8.084c-4.466,0-8.084,3.62-8.084,8.084v11.452h-9.701c-4.466,0-8.084,3.62-8.084,8.084V276.277z M241.011,245.557h73.297v22.636h-73.297V245.557z"/>
+                               <path d="M258.796,417.324v-9.701h10.779v9.701c0,4.465,3.618,8.084,8.084,8.084c4.466,0,8.084-3.62,8.084-8.084v-9.701h10.779 v9.701c0,4.465,3.618,8.084,8.084,8.084c4.466,0,8.084-3.62,8.084-8.084v-9.701h9.701c4.466,0,8.084-3.62,8.084-8.084v-38.804 c0-4.465-3.619-8.084-8.084-8.084h-9.701v-11.452c0-4.465-3.618-8.084-8.084-8.084c-4.466,0-8.084,3.62-8.084,8.084v11.452 h-10.779v-11.452c0-4.465-3.618-8.084-8.084-8.084c-4.466,0-8.084,3.62-8.084,8.084v11.452h-10.779v-11.452 c0-4.465-3.619-8.084-8.084-8.084c-4.466,0-8.084,3.62-8.084,8.084v11.452h-9.701c-4.466,0-8.084,3.62-8.084,8.084v38.804 c0,4.465,3.619,8.084,8.084,8.084h9.701v9.701c0,4.465,3.618,8.084,8.084,8.084C255.178,425.408,258.796,421.789,258.796,417.324 z M241.011,391.455v-22.636h73.297v22.636H241.011z"/>
+                               <path d="M356.552,76.192c13.175,0,23.893-10.719,23.893-23.893c0-13.175-10.718-23.894-23.893-23.894 s-23.894,10.719-23.894,23.894C332.659,65.473,343.377,76.192,356.552,76.192z M356.552,44.574c4.259,0,7.724,3.465,7.724,7.725 c0,4.26-3.465,7.724-7.724,7.724c-4.26,0-7.725-3.465-7.725-7.724C348.827,48.04,352.293,44.574,356.552,44.574z"/>
+                               <path d="M356.552,487.88c13.175,0,23.893-10.719,23.893-23.894c0-13.175-10.718-23.894-23.893-23.894 s-23.894,10.719-23.894,23.894C332.659,477.161,343.377,487.88,356.552,487.88z M356.552,456.262 c4.259,0,7.724,3.465,7.724,7.725c0,4.26-3.465,7.725-7.724,7.725c-4.26,0-7.725-3.465-7.725-7.725 C348.827,459.726,352.293,456.262,356.552,456.262z"/>
+                               <path d="M400.761,158.451c4.466,0,8.084-3.62,8.084-8.084V33.954C408.845,15.232,393.614,0,374.892,0H191.635h-37.077h-43.318 c-4.466,0-8.084,3.62-8.084,8.084v37.077c0,4.465,3.618,8.084,8.084,8.084h35.234v405.507h-35.234 c-4.466,0-8.084,3.62-8.084,8.084v37.078c0,4.465,3.618,8.084,8.084,8.084h43.318h37.077h36.237c4.466,0,8.084-3.62,8.084-8.084 c0-4.465-3.618-8.084-8.084-8.084h-28.152V16.168h175.173c9.807,0,17.785,7.979,17.785,17.785v67.033h-28.993 c-4.466,0-8.084,3.62-8.084,8.084V402.93c0,4.465,3.618,8.084,8.084,8.084h28.993v67.032c0,9.807-7.978,17.785-17.785,17.785 H253.741c-4.466,0-8.084,3.62-8.084,8.084c0,4.465,3.618,8.084,8.084,8.084h121.151c18.722,0,33.954-15.232,33.954-33.954 V175.158c0-4.465-3.618-8.084-8.084-8.084c-4.466,0-8.084,3.62-8.084,8.084v219.688h-20.909v-277.69h20.909v33.211 C392.677,154.831,396.296,158.451,400.761,158.451z M146.473,495.832h-27.15v-20.909h27.15V495.832z M146.473,37.077h-27.15 V16.168h27.15V37.077z M183.55,495.832h-20.909v-28.993V45.162V16.168h20.909V495.832z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="truncate text-neutral-300" data-ram>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nobis quisquam deserunt provident atque voluptatum libero vel enim impedit explicabo nulla eligendi aspernatur fugit magni temporibus, odit asperiores molestias quod!</p>
+                </div>
+                <!-- FAN -->
+                <div class="w-full flex gap-3">
+                    <div class="flex items-center">
+                        <div class="w-5 h-5 text-neutral-400">
+                            <!-- Masukkan kode SVG KELIMA yang sudah dioptimalkan di sini -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490" fill="currentColor">
+                               <path d="M245,60.3C143.1,60.3,60.3,143.1,60.3,245S143.1,429.7,245,429.7S429.7,346.9,429.7,245S346.9,60.3,245,60.3z M245,83.6 c35.8,0,64.9,16.7,64.9,37.3c0,12.1-6.2,46.7-18.7,72.7c-15.4-13.6-50.4-26.7-82.4-7.4c-16.7-24.9-28.4-54.1-28.4-65.3 C180.1,100.3,209.2,83.6,245,83.6z M294.4,245c0,27.2-22.2,49.4-49.4,49.4s-49.4-22.2-49.4-49.4s22.2-49.4,49.4-49.4 S294.4,217.8,294.4,245z M83.6,245c0-35.8,16.7-64.9,37.3-64.9c12.1,0,46.7,6.2,72.7,18.7c-29.4,29.2-14,71.9-7.4,82.4 c-24.9,16.7-54.1,28.4-65.3,28.4C100.3,309.9,83.6,280.8,83.6,245z M245,406.4c-35.8,0-64.9-16.7-64.9-37.3 c0-12.1,6.2-46.7,18.7-72.7c15.9,13.6,52.2,26.5,82.4,7.4c16.7,24.9,28.4,54.1,28.4,65.3C309.9,389.7,280.8,406.4,245,406.4z M369.4,309.9c-12.1,0-46.7-6.2-72.7-18.7c10.9-12.4,28.9-46.5,7.4-82.4c24.9-16.7,54.1-28.4,65.3-28.4 c20.6,0,37.3,29.2,37.3,64.9C406.4,280.8,389.7,309.9,369.4,309.9z"/>
+                               <path d="M0,0v490h490V0H0z M63,31.9c14.4,0,26.1,11.7,26.1,26.1S77.4,84,63,84S36.9,72.3,36.9,57.9S48.6,31.9,63,31.9z M63,458.1 c-14.4,0-26.1-11.7-26.1-26.1s11.7-26.1,26.1-26.1s26.1,11.7,26.1,26.1S77.4,458.1,63,458.1z M245,449.6 c-112.8,0-204.6-91.8-204.6-204.6S132.2,40.4,245,40.4S449.6,132.2,449.6,245S357.8,449.6,245,449.6z M427,458.1 c-14.4,0-26.1-11.7-26.1-26.1s11.7-26.1,26.1-26.1s26.1,11.7,26.1,26.1S441.4,458.1,427,458.1z M427,84 c-14.4,0-26.1-11.7-26.1-26.1s11.7-26.1,26.1-26.1s26.1,11.7,26.1,26.1S441.4,84,427,84z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="truncate text-neutral-300" data-fan>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nobis quisquam deserunt provident atque voluptatum libero vel enim impedit explicabo nulla eligendi aspernatur fugit magni temporibus, odit asperiores molestias quod!</p>
+                </div>
+                <!-- Case -->
+                <div class="w-full flex gap-3">
+                    <div class="flex items-center">
+                        <div class="w-5 h-5 text-neutral-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.834 238.834" fill="currentColor">
+                                <path d="M119.417,143.501c3.859,0,7,3.141,7,7c0,3.859-3.141,7-7,7s-7-3.141-7-7C112.417,146.642,115.558,143.501,119.417,143.501z M143.251,238.834v-3.167H95.583v3.167H74.251v-3.167H62.083c-1.381,0-2.5-1.119-2.5-2.5V5.833c0-1.381,1.119-2.5,2.5-2.5h11.613 L76.417,0h86l2.721,3.333h11.613c1.381,0,2.5,1.119,2.5,2.5v227.334c0,1.381-1.119,2.5-2.5,2.5h-12.168v3.167H143.251z M78.084,47.5 h82.666v-23H78.084V47.5z M78.084,77.5h82.666v-23H78.084V77.5z M78.084,107.5h82.666v-23H78.084V107.5z M119.417,137.501 c-7.168,0-13,5.832-13,13c0,7.168,5.832,13,13,13s13-5.832,13-13C132.417,143.333,126.585,137.501,119.417,137.501z M160.75,212.833 v-58.974C151.484,166.662,136.429,175,119.417,175s-32.067-8.338-41.333-21.141v58.974H160.75z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="truncate text-neutral-300" data-case>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nobis quisquam deserunt provident atque voluptatum libero vel enim impedit explicabo nulla eligendi aspernatur fugit magni temporibus, odit asperiores molestias quod!</p>
+                </div>
+            </div>
+            
+            <!-- Prices -->
+            <div class="w-full h-fit gap-2 md:gap-4 flex flex-col group">
+                <p class="w-fit pl-2 md:pl-4 text-green-200 text-left text-md md:text-2xl font-bold group-hover:scale-110 group-hover:text-green-100 group-hover:translate-x-1 transition-3" data-price>Rp5.900.000</p>
+                <a href="" data-id>
+                    <div class="w-full h-full relative">
+                        <div class="inset-0 absolute bg-gradient-to-r from-indigo-500/20 to-neutral-200/20 group-hover:scale-y-110 opacity-0 transition-3 group-hover:blur-xs group-hover:opacity-100 animate-bg-spin"></div> <!-- background kalau saat tombol di hover nanti bakal ada cahaya yang memutari buttonnya dan di animasikan dari 0deg ke 360deg -->
+                        <div class="z-50 w-full rounded-md py-2 border-2 scale-95 bg-green-500/70 border-green-300/20 group-hover:border-green-500 group-hover:scale-100 cursor-pointer group-hover:bg-green-500/90 transition-3 flex justify-center items-center blur-none">
+                            <i class="fa-solid fa-cart-plus text-amber-50"></i><p class="text-white text-center text-md md:text-2xl font-bold">See Details</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+  </template>
+  <template id="part_cards">
+        <div class="flex flex-col items-center p-3 md:px-5 md:py-6 gap-1 md:gap-4 w-40 md:w-80 h-max bg-black/20 rounded-2xl self-stretch border-1 border-gray-700/90 shadow-middle sm:scale-90 lg:scale-100 ">
+            <!-- Image -->
+            <img src=".\\assets\\img\\pc1.png" alt="" class="w-full rounded-lg md:shadow-lg md:shadow-white/15 hover:rounded-none hover:shadow-lg hover:shadow-green-400/10 hover:scale-105 hover:-translate-y-4 transition-all duration-200 ease-in-out aspect-square object-cover" data-image>
+            
+            <!-- Title -->
+            <div class="max-w-full md:min-h-16 py-1 md:pb-4 flex items-center w-full">
+                <h2 class=" text-neutral-100 text-md md:text-xl font-bold line-clamp-1" data-title></h2>
+            </div>
+            
+            <!-- Type -->
+            <div class="w-full flex gap-3 md:-mt-2 border-t-2 border-gray-600">
+                <p class="truncate text-xs md:text-lg text-neutral-300" data-type></p>
+            </div>
+            
+            <!-- Prices -->
+            <div class="w-full h-fit gap-2 md:gap-4 flex flex-col group">
+                <p class="w-fit md:-ml-0.5 text-green-200 text-left text-md md:text-2xl font-bold group-hover:scale-110 group-hover:text-green-100 group-hover:translate-x-1 transition-3" data-price>Rp5.900.000</p>
+                <a href="" data-id>
+                    <div class="w-full h-full relative">
+                        <div class="inset-0 absolute bg-gradient-to-r from-indigo-500/20 to-neutral-200/20 group-hover:scale-y-110 opacity-0 transition-3 group-hover:blur-xs group-hover:opacity-100 animate-bg-spin"></div> <!-- background kalau saat tombol di hover nanti bakal ada cahaya yang memutari buttonnya dan di animasikan dari 0deg ke 360deg -->
+                        <div class="z-50 w-full rounded-md py-2 border-2 scale-95 bg-green-500/70 border-green-300/20 group-hover:border-green-500 group-hover:scale-100 cursor-pointer group-hover:bg-green-500/90 transition-3 flex justify-center items-center blur-none">
+                            <p class="text-white text-center text-md md:text-2xl font-bold">See Details</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+  </template>
+  <template id="monitor_cards">
+        <div class="flex flex-col items-center p-3 md:px-5 md:py-6 gap-1 md:gap-4 w-40 md:w-80 h-max bg-black/20 rounded-2xl self-stretch border-1 border-gray-700/90 shadow-middle sm:scale-90 lg:scale-100 ">
+            <!-- Image -->
+            <img src=".\\assets\\img\\pc1.png" alt="" class="w-full rounded-lg md:shadow-lg md:shadow-white/15 hover:rounded-none hover:shadow-lg hover:shadow-green-400/10 hover:scale-105 hover:-translate-y-4 transition-all duration-200 ease-in-out aspect-square object-cover" data-image>
+            
+            <!-- Title -->
+            <div class="max-w-full md:min-h-16 py-1 md:pb-4 flex items-center w-full">
+                <h2 class=" text-neutral-100 text-md md:text-xl font-bold line-clamp-1" data-title>EK Gaming BattleForteer 506 - Powered By ASUS</h2>
+            </div>
+            
+            <!-- type -->
+            <div class="w-full md:flex gap-3 md:-mt-2 border-t-2 border-gray-600 hidden">
+                <p class="truncate text-xs md:text-lg text-neutral-300" data-type>Lorem ipsum</p>
+            </div>
+            
+            <!-- Prices -->
+            <div class="w-full h-fit gap-2 md:gap-4 flex flex-col group">
+                <p class="w-fit md:-ml-0.5 text-green-200 text-left text-md md:text-2xl font-bold group-hover:scale-110 group-hover:text-green-100 group-hover:translate-x-1 transition-3" data-price>Rp5.900.000</p>
+                <a href="" data-id>
+                    <div class="w-full h-full relative">
+                        <div class="inset-0 absolute bg-gradient-to-r from-indigo-500/20 to-neutral-200/20 group-hover:scale-y-110 opacity-0 transition-3 group-hover:blur-xs group-hover:opacity-100 animate-bg-spin"></div> <!-- background kalau saat tombol di hover nanti bakal ada cahaya yang memutari buttonnya dan di animasikan dari 0deg ke 360deg -->
+                        <div class="z-50 w-full rounded-md py-2 border-2 scale-95 bg-green-500/70 border-green-300/20 group-hover:border-green-500 group-hover:scale-100 cursor-pointer group-hover:bg-green-500/90 transition-3 flex justify-center items-center blur-none">
+                            <p class="text-white text-center text-md md:text-2xl font-bold">See Details</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+  </template>
+  <template id="peripherals_cards">
+        <div class="flex flex-col items-center p-3 md:px-5 md:py-6 gap-1 md:gap-4 w-40 md:w-80 h-max bg-black/20 rounded-2xl self-stretch border-1 border-gray-700/90 shadow-middle sm:scale-90 lg:scale-100 ">
+            <!-- Image -->
+            <img src=".\\assets\\img\\pc1.png" alt="" class="w-full rounded-lg md:shadow-lg md:shadow-white/15 hover:rounded-none hover:shadow-lg hover:shadow-green-400/10 hover:scale-105 hover:-translate-y-4 transition-all duration-200 ease-in-out aspect-square object-cover" data-image>
+            
+            <!-- Title -->
+            <div class="max-w-full md:min-h-16 py-1 md:pb-4 flex items-center w-full">
+                <h2 class=" text-neutral-100 text-md md:text-xl font-bold line-clamp-1" data-title>EK Gaming BattleForteer 506 - Powered By ASUS</h2>
+            </div>
+            
+            <!-- Type -->
+            <div class="w-full flex gap-3 md:-mt-2 border-t-2 border-gray-600">
+                <p class="truncate text-xs md:text-lg text-neutral-300" data-type>Lorem ipsum</p>
+            </div>
+            
+            <!-- Prices -->
+            <div class="w-full h-fit gap-2 md:gap-4 flex flex-col group">
+                <p class="w-fit md:-ml-0.5 text-green-200 text-left text-md md:text-2xl font-bold group-hover:scale-110 group-hover:text-green-100 group-hover:translate-x-1 transition-3" data-price>Rp5.900.000</p>
+                <a href="" data-id>
+                    <div class="w-full h-full relative">
+                        <div class="inset-0 absolute bg-gradient-to-r from-indigo-500/20 to-neutral-200/20 group-hover:scale-y-110 opacity-0 transition-3 group-hover:blur-xs group-hover:opacity-100 animate-bg-spin"></div> <!-- background kalau saat tombol di hover nanti bakal ada cahaya yang memutari buttonnya dan di animasikan dari 0deg ke 360deg -->
+                        <div class="z-50 w-full rounded-md py-2 border-2 scale-95 bg-green-500/70 border-green-300/20 group-hover:border-green-500 group-hover:scale-100 cursor-pointer group-hover:bg-green-500/90 transition-3 flex justify-center items-center blur-none">
+                            <p class="text-white text-center text-md md:text-2xl font-bold">See Details</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+  </template>
+    
+  <script src="./js/apps.js"></script>
+</body>
+</html>
