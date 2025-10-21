@@ -1,4 +1,3 @@
-`markdown
 # HelloPC 🖥 Catalogue Web Application
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) Selamat datang di repository HelloPC! Ini adalah proyek aplikasi web front-end yang berfungsi sebagai katalog online interaktif untuk berbagai produk perangkat keras komputer, termasuk PC Rakitan (Prebuilt), Komponen Internal, Monitor, dan Periferal.
@@ -54,13 +53,12 @@ Untuk menjalankan proyek ini di mesin lokal Anda:
 
 1.  **Clone Repository:**
     bash
-    git clone [https://github.com/USERNAME/NAMA-REPOSITORY.git](https://github.com/USERNAME/NAMA-REPOSITORY.git)
-    # Ganti USERNAME/NAMA-REPOSITORY dengan URL repo Anda
+    git clone [https://github.com/maling1326/HelloPC.git](https://github.com/maling1326/HelloPC.git)
     
 
 2.  **Navigasi ke Direktori Proyek:**
     bash
-    cd NAMA-REPOSITORY
+    cd HelloPC
     
 
 3.  **Buka File `index.html`:**
@@ -73,8 +71,7 @@ Untuk menjalankan proyek ini di mesin lokal Anda:
 
 ## 📂 Struktur Proyek
 
-`
-
+```
 .
 ├── index.html                  \# Halaman utama (katalog)
 ├── detail.html                 \# Halaman detail produk
@@ -91,17 +88,7 @@ Untuk menjalankan proyek ini di mesin lokal Anda:
 │   │   └── 8289995\_25336.jpg     \# Contoh gambar latar
 │   └── img/                    \# (Direktori untuk gambar produk - jika ada)
 └── README.md                   \# File dokumentasi ini
-
-
-
-## 💡 Ide Pengembangan Selanjutnya
-
-* Implementasi fungsi pencarian produk.
-* Penambahan fitur filter dan sortir yang lebih canggih (berdasarkan harga, merek, spesifikasi).
-* Integrasi dengan API backend nyata untuk data produk dan transaksi.
-* Validasi input form yang lebih robust di halaman transaksi.
-* Penyempurnaan UI/UX dan animasi.
-* Penambahan fitur akun pengguna atau wishlist.
+```
 
 ## 🤝 Kontribusi
 
