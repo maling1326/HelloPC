@@ -29,13 +29,13 @@ HelloPC dirancang untuk menyajikan informasi produk perangkat keras komputer sec
 
 *(Sangat disarankan untuk menambahkan screenshot aplikasi Anda di sini!)*
 
-*Contoh: Tampilan Halaman Utama*
+*Tampilan Halaman Utama*
 ![Placeholder Halaman Utama](./ss1.png)
 
-*Contoh: Tampilan Halaman Detail*
+*Tampilan Halaman Detail*
 ![Placeholder Halaman Detail](./ss2.png)
 
-*Contoh: Tampilan Halaman Detail*
+*Tampilan Halaman Detail*
 ![Placeholder Halaman Transaksi](./ss3.png)
 
 ## 🏢Penjelasan Video
