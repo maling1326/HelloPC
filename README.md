@@ -41,7 +41,7 @@ HelloPC dirancang untuk menyajikan informasi produk perangkat keras komputer sec
 ## 🏢Penjelasan Video
 
 Tonton Video Berikut!!
-![Youtube](https://youtu.be/_Z0tn8U9lnU).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Z0tn8U9lnU?si=aN8A2WhLHwhu5et_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 🛠 Teknologi yang Digunakan
 
